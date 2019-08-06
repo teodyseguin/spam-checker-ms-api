@@ -1,0 +1,26 @@
+version: '2'
+services:
+  scms-spamassassin:
+    image: teodyseguin/spamassassin
+    container_name: scms-spamassassin
+    networks:
+      - scms-network
+    environment:
+      REQUIRED_SCORE: 5.0
+    ports:
+      - 783:783
+
+  scms-api:
+    build: ./app
+    container_name: scms-api
+    volumes:
+      - ./app:/home/app
+      - /home/app/node_modules
+    networks:
+      - scms-network
+    ports:
+      - 3000:3000
+
+networks:
+  scms-network:
+    driver: bridge
