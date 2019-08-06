@@ -1,9 +1,9 @@
 # Welcome to Spam Checker Microservice API
 
-### Server Pre-requisite
+### Pre-requisite
 
-1. Docker: https://linuxize.com/post/how-to-install-and-use-docker-on-centos-7/
-2. Docker Compose: https://linuxize.com/post/how-to-install-and-use-docker-compose-on-centos-7/
+1. Docker
+2. Docker Compose
 
 ### Services
 
