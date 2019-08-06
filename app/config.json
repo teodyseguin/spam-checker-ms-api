@@ -1,0 +1,17 @@
+{
+  "local": {
+    "port": 3000,
+    "spamassassin_host": "scms-spamassassin",
+    "spamassassin_port": 783
+  },
+  "dev": {
+    "port": 3000,
+    "spamassassin_host": "scms-spamassassin",
+    "spamassassin_port": 783
+  },
+  "prod": {
+    "port": 3000,
+    "spamassassin_host": "scms-spamassassin",
+    "spamassassin_port": 783
+  }
+}
