@@ -1,0 +1,4387 @@
+{
+  "ACT_NOW_CAPS": {
+    "areaTested": "body",
+    "description": "Talks about 'acting now' with capitals",
+    "score": "0.100"
+  },
+  "AC_BR_BONANZA": {
+    "areaTested": "rawbody",
+    "description": "Too many newlines in a row... spammy template",
+    "score": "0.001"
+  },
+  "AC_DIV_BONANZA": {
+    "areaTested": "rawbody",
+    "description": "Too many divs in a row... spammy template",
+    "score": "0.001"
+  },
+  "AC_FROM_MANY_DOTS": {
+    "areaTested": "meta",
+    "description": "Multiple periods in From user name",
+    "score": "2.999"
+  },
+  "AC_HTML_NONSENSE_TAGS": {
+    "areaTested": "rawbody",
+    "description": "Many consecutive multi-letter HTML tags, likely nonsense/spam",
+    "score": "1.999"
+  },
+  "AC_SPAMMY_URI_PATTERNS1": {
+    "areaTested": "meta",
+    "description": "link combos match highly spammy template",
+    "score": "1.000"
+  },
+  "AC_SPAMMY_URI_PATTERNS10": {
+    "areaTested": "meta",
+    "description": "link combos match highly spammy template",
+    "score": "1.000"
+  },
+  "AC_SPAMMY_URI_PATTERNS11": {
+    "areaTested": "meta",
+    "description": "link combos match highly spammy template",
+    "score": "1.000"
+  },
+  "AC_SPAMMY_URI_PATTERNS12": {
+    "areaTested": "meta",
+    "description": "link combos match highly spammy template",
+    "score": "1.000"
+  },
+  "AC_SPAMMY_URI_PATTERNS2": {
+    "areaTested": "meta",
+    "description": "link combos match highly spammy template",
+    "score": "1.000"
+  },
+  "AC_SPAMMY_URI_PATTERNS3": {
+    "areaTested": "meta",
+    "description": "link combos match highly spammy template",
+    "score": "1.000"
+  },
+  "AC_SPAMMY_URI_PATTERNS4": {
+    "areaTested": "meta",
+    "description": "link combos match highly spammy template",
+    "score": "1.000"
+  },
+  "AC_SPAMMY_URI_PATTERNS8": {
+    "areaTested": "meta",
+    "description": "link combos match highly spammy template",
+    "score": "1.000"
+  },
+  "AC_SPAMMY_URI_PATTERNS9": {
+    "areaTested": "meta",
+    "description": "link combos match highly spammy template",
+    "score": "1.000"
+  },
+  "ADMAIL": {
+    "areaTested": "meta",
+    "description": "\"admail\" and variants",
+    "score": "1.000"
+  },
+  "ADVANCE_FEE_2_NEW_FORM": {
+    "areaTested": "meta",
+    "description": "Advance Fee fraud and a form",
+    "score": "1.000"
+  },
+  "ADVANCE_FEE_2_NEW_MONEY": {
+    "areaTested": "meta",
+    "description": "Advance Fee fraud and lots of money",
+    "score": "1.790"
+  },
+  "ADVANCE_FEE_3_NEW": {
+    "areaTested": "meta",
+    "description": "Appears to be advance fee fraud (Nigerian 419)",
+    "score": "2.834"
+  },
+  "ADVANCE_FEE_3_NEW_FORM": {
+    "areaTested": "meta",
+    "description": "Advance Fee fraud and a form",
+    "score": "1.000"
+  },
+  "ADVANCE_FEE_3_NEW_MONEY": {
+    "areaTested": "meta",
+    "description": "Advance Fee fraud and lots of money",
+    "score": "1.240"
+  },
+  "ADVANCE_FEE_4_NEW": {
+    "areaTested": "meta",
+    "description": "Appears to be advance fee fraud (Nigerian 419)",
+    "score": "2.700"
+  },
+  "ADVANCE_FEE_4_NEW_FRM_MNY": {
+    "areaTested": "meta",
+    "description": "Advance Fee fraud form and lots of money",
+    "score": "2.399"
+  },
+  "ADVANCE_FEE_4_NEW_MONEY": {
+    "areaTested": "meta",
+    "description": "Advance Fee fraud and lots of money",
+    "score": "2.999"
+  },
+  "ADVANCE_FEE_5_NEW": {
+    "areaTested": "meta",
+    "description": "Appears to be advance fee fraud (Nigerian 419)",
+    "score": "1.549"
+  },
+  "ADVANCE_FEE_5_NEW_FRM_MNY": {
+    "areaTested": "meta",
+    "description": "Advance Fee fraud form and lots of money",
+    "score": "0.001"
+  },
+  "ADVANCE_FEE_5_NEW_MONEY": {
+    "areaTested": "meta",
+    "description": "Advance Fee fraud and lots of money",
+    "score": "0.927"
+  },
+  "AD_PREFS": {
+    "areaTested": "body",
+    "description": "Advertising preferences",
+    "score": "0.250"
+  },
+  "ALL_TRUSTED": {
+    "areaTested": "header",
+    "description": "Passed through trusted hosts only via SMTP",
+    "score": "-1.000"
+  },
+  "AMAZON_IMG_NOT_RCVD_AMZN": {
+    "areaTested": "meta",
+    "description": "Amazon hosted image but message not from Amazon",
+    "score": "2.001"
+  },
+  "ANY_BOUNCE_MESSAGE": {
+    "areaTested": "meta",
+    "description": "Message is some kind of bounce message",
+    "score": "0.100"
+  },
+  "ANY_PILL_PRICE": {
+    "areaTested": "meta",
+    "description": "Prices for pills",
+    "score": "0.024"
+  },
+  "APOSTROPHE_FROM": {
+    "areaTested": "header",
+    "description": "From address contains an apostrophe",
+    "score": "0.148"
+  },
+  "APP_DEVELOPMENT_FREEM": {
+    "areaTested": "meta",
+    "description": "App development pitch, freemail or CHN replyto",
+    "score": "1.000"
+  },
+  "APP_DEVELOPMENT_NORDNS": {
+    "areaTested": "meta",
+    "description": "App development pitch, no rDNS",
+    "score": "1.000"
+  },
+  "AWL": {
+    "areaTested": "header",
+    "description": "Adjusted score from AWL reputation of From: address",
+    "score": "1.000"
+  },
+  "AXB_XMAILER_MIMEOLE_OL_024C2": {
+    "areaTested": "meta",
+    "description": "Yet another X header trait",
+    "score": "0.138"
+  },
+  "AXB_XMAILER_MIMEOLE_OL_1ECD5": {
+    "areaTested": "meta",
+    "description": "Yet another X header trait##} AXB_XMAILER_MIMEOLE_OL_1ECD5",
+    "score": "1.007"
+  },
+  "BAD_CREDIT": {
+    "areaTested": "body",
+    "description": "Eliminate Bad Credit",
+    "score": "0.100"
+  },
+  "BAD_ENC_HEADER": {
+    "areaTested": "header",
+    "description": "Message has bad MIME encoding in the header",
+    "score": "0.001"
+  },
+  "BANG_GUAR": {
+    "areaTested": "body",
+    "description": "Something is emphatically guaranteed",
+    "score": "1.000"
+  },
+  "BANKING_LAWS": {
+    "areaTested": "body",
+    "description": "Talks about banking laws",
+    "score": "2.399"
+  },
+  "BASE64_LENGTH_78_79": {
+    "areaTested": "body",
+    "description": "No description provided",
+    "score": "0.100"
+  },
+  "BASE64_LENGTH_79_INF": {
+    "areaTested": "body",
+    "description": "base64 encoded email part uses line length greater than 79 characters",
+    "score": "1.379"
+  },
+  "BAYES_00": {
+    "areaTested": "body",
+    "description": "Bayes spam probability is 0 to 1%",
+    "score": "-3.000"
+  },
+  "BAYES_05": {
+    "areaTested": "body",
+    "description": "Bayes spam probability is 1 to 5%",
+    "score": "-0.500"
+  },
+  "BAYES_20": {
+    "areaTested": "body",
+    "description": "Bayes spam probability is 5 to 20%",
+    "score": "-0.001"
+  },
+  "BAYES_40": {
+    "areaTested": "body",
+    "description": "Bayes spam probability is 20 to 40%",
+    "score": "-0.001"
+  },
+  "BAYES_50": {
+    "areaTested": "body",
+    "description": "Bayes spam probability is 40 to 60%",
+    "score": "2.000"
+  },
+  "BAYES_60": {
+    "areaTested": "body",
+    "description": "Bayes spam probability is 60 to 80%",
+    "score": "3.000"
+  },
+  "BAYES_80": {
+    "areaTested": "body",
+    "description": "Bayes spam probability is 80 to 95%",
+    "score": "4.000"
+  },
+  "BAYES_95": {
+    "areaTested": "body",
+    "description": "Bayes spam probability is 95 to 99%",
+    "score": "5.000"
+  },
+  "BAYES_99": {
+    "areaTested": "body",
+    "description": "Bayes spam probability is 99 to 100%",
+    "score": "6.000"
+  },
+  "BAYES_999": {
+    "areaTested": "body",
+    "description": "Bayes spam probability is 99.9 to 100%",
+    "score": "7.000"
+  },
+  "BIGNUM_EMAILS": {
+    "areaTested": "meta",
+    "description": "Lots of email addresses/leads",
+    "score": "2.999"
+  },
+  "BILLION_DOLLARS": {
+    "areaTested": "body",
+    "description": "Talks about lots of money",
+    "score": "0.001"
+  },
+  "BITCOIN_DEADLINE": {
+    "areaTested": "meta",
+    "description": "BitCoin with a deadline",
+    "score": "2.999"
+  },
+  "BITCOIN_EXTORT_01": {
+    "areaTested": "meta",
+    "description": "Extortion spam, pay via BitCoin",
+    "score": "3.506"
+  },
+  "BITCOIN_MALWARE": {
+    "areaTested": "meta",
+    "description": "BitCoin + malware",
+    "score": "3.500"
+  },
+  "BITCOIN_PAY_ME": {
+    "areaTested": "meta",
+    "description": "Pay me via BitCoin",
+    "score": "2.999"
+  },
+  "BITCOIN_SPAM_01": {
+    "areaTested": "meta",
+    "description": "BitCoin spam pattern 01",
+    "score": "0.284"
+  },
+  "BITCOIN_SPAM_02": {
+    "areaTested": "meta",
+    "description": "BitCoin spam pattern 02",
+    "score": "2.499"
+  },
+  "BITCOIN_SPAM_03": {
+    "areaTested": "meta",
+    "description": "BitCoin spam pattern 03",
+    "score": "2.499"
+  },
+  "BITCOIN_SPAM_04": {
+    "areaTested": "meta",
+    "description": "BitCoin spam pattern 04",
+    "score": "1.000"
+  },
+  "BITCOIN_SPAM_05": {
+    "areaTested": "meta",
+    "description": "BitCoin spam pattern 05",
+    "score": "2.218"
+  },
+  "BITCOIN_SPAM_06": {
+    "areaTested": "meta",
+    "description": "BitCoin spam pattern 06",
+    "score": "0.001"
+  },
+  "BITCOIN_SPAM_07": {
+    "areaTested": "meta",
+    "description": "BitCoin spam pattern 07",
+    "score": "3.500"
+  },
+  "BITCOIN_SPAM_08": {
+    "areaTested": "meta",
+    "description": "BitCoin spam pattern 08",
+    "score": "2.499"
+  },
+  "BITCOIN_SPAM_09": {
+    "areaTested": "meta",
+    "description": "BitCoin spam pattern 09",
+    "score": "1.498"
+  },
+  "BITCOIN_SPAM_10": {
+    "areaTested": "meta",
+    "description": "BitCoin spam pattern 10",
+    "score": "1.000"
+  },
+  "BITCOIN_SPAM_11": {
+    "areaTested": "meta",
+    "description": "BitCoin spam pattern 11",
+    "score": "2.499"
+  },
+  "BITCOIN_SPAM_12": {
+    "areaTested": "meta",
+    "description": "BitCoin spam pattern 12",
+    "score": "1.000"
+  },
+  "BITCOIN_SPF_ONLYALL": {
+    "areaTested": "meta",
+    "description": "Bitcoin from a domain specifically set to pass +all SPF",
+    "score": "0.001"
+  },
+  "BODY_8BITS": {
+    "areaTested": "body",
+    "description": "Body includes 8 consecutive 8-bit characters",
+    "score": "1.500"
+  },
+  "BODY_EMPTY": {
+    "areaTested": "meta",
+    "description": "No body text in message",
+    "score": "1.999"
+  },
+  "BODY_ENHANCEMENT": {
+    "areaTested": "body",
+    "description": "Information on growing body parts",
+    "score": "0.927"
+  },
+  "BODY_ENHANCEMENT2": {
+    "areaTested": "body",
+    "description": "Information on getting larger body parts",
+    "score": "0.100"
+  },
+  "BODY_SINGLE_URI": {
+    "areaTested": "meta",
+    "description": "Message body is only a URI",
+    "score": "0.900"
+  },
+  "BODY_SINGLE_WORD": {
+    "areaTested": "meta",
+    "description": "Message body is only one word (no spaces)",
+    "score": "2.499"
+  },
+  "BODY_URI_ONLY": {
+    "areaTested": "meta",
+    "description": "Message body is only a URI in one line of text or for an image",
+    "score": "0.999"
+  },
+  "BOGUS_MIME_VERSION": {
+    "areaTested": "meta",
+    "description": "Mime version header is bogus",
+    "score": "1.000"
+  },
+  "BOGUS_MSM_HDRS": {
+    "areaTested": "meta",
+    "description": "Apparently bogus Microsoft email headers",
+    "score": "1.937"
+  },
+  "BOMB_FREEM": {
+    "areaTested": "meta",
+    "description": "Bomb + freemail",
+    "score": "1.000"
+  },
+  "BOMB_MONEY": {
+    "areaTested": "meta",
+    "description": "Bomb + money: bomb threat?",
+    "score": "1.000"
+  },
+  "BOUNCE_MESSAGE": {
+    "areaTested": "meta",
+    "description": "MTA bounce message",
+    "score": "0.100"
+  },
+  "BUG6152_INVALID_DATE_TZ_ABSURD": {
+    "areaTested": "header",
+    "description": "No description provided",
+    "score": "0.100"
+  },
+  "BULK_RE_SUSP_NTLD": {
+    "areaTested": "meta",
+    "description": "Precedence bulk and RE: from a suspicious TLD",
+    "score": "1.000"
+  },
+  "CANT_SEE_AD": {
+    "areaTested": "meta",
+    "description": "You really want to see our spam.",
+    "score": "2.499"
+  },
+  "CHALLENGE_RESPONSE": {
+    "areaTested": "meta",
+    "description": "Challenge-Response message for mail you sent",
+    "score": "0.100"
+  },
+  "CHARSET_FARAWAY": {
+    "areaTested": "body",
+    "description": "Character set indicates a foreign language",
+    "score": "3.200"
+  },
+  "CHARSET_FARAWAY_HEADER": {
+    "areaTested": "header",
+    "description": "A foreign language charset used in headers",
+    "score": "3.200"
+  },
+  "CK_HELO_DYNAMIC_SPLIT_IP": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (Split IP)",
+    "score": "1.499"
+  },
+  "CK_HELO_GENERIC": {
+    "areaTested": "header",
+    "description": "Relay used name indicative of a Dynamic Pool or Generic rPTR",
+    "score": "0.249"
+  },
+  "CN_B2B_SPAMMER": {
+    "areaTested": "body",
+    "description": "Chinese company introducing itself",
+    "score": "1.000"
+  },
+  "COMMENT_GIBBERISH": {
+    "areaTested": "meta",
+    "description": "Nonsense in long HTML comment",
+    "score": "1.000"
+  },
+  "COMPENSATION": {
+    "areaTested": "meta",
+    "description": "\"Compensation\"",
+    "score": "1.499"
+  },
+  "CRBOUNCE_MESSAGE": {
+    "areaTested": "meta",
+    "description": "Challenge-Response bounce message",
+    "score": "0.100"
+  },
+  "CTYPE_001C_B": {
+    "areaTested": "header",
+    "description": "No description provided",
+    "score": "0.001"
+  },
+  "CTYPE_NULL": {
+    "areaTested": "meta",
+    "description": "Malformed Content-Type header",
+    "score": "1.000"
+  },
+  "CURR_PRICE": {
+    "areaTested": "body",
+    "description": "No description provided",
+    "score": "0.001"
+  },
+  "DATE_IN_FUTURE_03_06": {
+    "areaTested": "header",
+    "description": "Date: is 3 to 6 hours after Received: date",
+    "score": "3.399"
+  },
+  "DATE_IN_FUTURE_06_12": {
+    "areaTested": "header",
+    "description": "Date: is 6 to 12 hours after Received: date",
+    "score": "2.899"
+  },
+  "DATE_IN_FUTURE_12_24": {
+    "areaTested": "header",
+    "description": "Date: is 12 to 24 hours after Received: date",
+    "score": "2.603"
+  },
+  "DATE_IN_FUTURE_24_48": {
+    "areaTested": "header",
+    "description": "Date: is 24 to 48 hours after Received: date",
+    "score": "2.598"
+  },
+  "DATE_IN_FUTURE_48_96": {
+    "areaTested": "header",
+    "description": "Date: is 48 to 96 hours after Received: date",
+    "score": "2.384"
+  },
+  "DATE_IN_FUTURE_96_Q": {
+    "areaTested": "header",
+    "description": "Date: is 4 days to 4 months after Received: date",
+    "score": "2.799"
+  },
+  "DATE_IN_PAST_03_06": {
+    "areaTested": "header",
+    "description": "Date: is 3 to 6 hours before Received: date",
+    "score": "2.399"
+  },
+  "DATE_IN_PAST_06_12": {
+    "areaTested": "header",
+    "description": "Date: is 6 to 12 hours before Received: date",
+    "score": "1.699"
+  },
+  "DATE_IN_PAST_12_24": {
+    "areaTested": "header",
+    "description": "Date: is 12 to 24 hours before Received: date",
+    "score": "0.001"
+  },
+  "DATE_IN_PAST_24_48": {
+    "areaTested": "header",
+    "description": "Date: is 24 to 48 hours before Received: date",
+    "score": "1.109"
+  },
+  "DATE_IN_PAST_96_XX": {
+    "areaTested": "header",
+    "description": "Date: is 96 hours or more before Received: date",
+    "score": "2.600"
+  },
+  "DAY_I_EARNED": {
+    "areaTested": "meta",
+    "description": "Work-at-home spam",
+    "score": "1.000"
+  },
+  "DCC_CHECK": {
+    "areaTested": "full",
+    "description": "Detected as bulk mail by DCC (dcc-servers.net)",
+    "score": "0.000"
+  },
+  "DCC_REPUT_00_12": {
+    "areaTested": "full",
+    "description": "DCC reputation between 0 and 12 %  (mostly ham)",
+    "score": "0.000"
+  },
+  "DCC_REPUT_13_19": {
+    "areaTested": "full",
+    "description": "DCC reputation between 13 and 19 %",
+    "score": "0.000"
+  },
+  "DCC_REPUT_70_89": {
+    "areaTested": "full",
+    "description": "DCC reputation between 70 and 89 %",
+    "score": "0.000"
+  },
+  "DCC_REPUT_90_94": {
+    "areaTested": "full",
+    "description": "DCC reputation between 90 and 94 %",
+    "score": "0.000"
+  },
+  "DCC_REPUT_95_98": {
+    "areaTested": "full",
+    "description": "DCC reputation between 95 and 98 %  (mostly spam)",
+    "score": "0.000"
+  },
+  "DCC_REPUT_99_100": {
+    "areaTested": "full",
+    "description": "DCC reputation between 99 % or higher (spam)",
+    "score": "0.000"
+  },
+  "DC_GIF_UNO_LARGO": {
+    "areaTested": "meta",
+    "description": "Message contains a single large gif image",
+    "score": "0.001"
+  },
+  "DC_IMAGE_SPAM_HTML": {
+    "areaTested": "meta",
+    "description": "Possible Image-only spam",
+    "score": "0.100"
+  },
+  "DC_IMAGE_SPAM_TEXT": {
+    "areaTested": "meta",
+    "description": "Possible Image-only spam with little text",
+    "score": "0.100"
+  },
+  "DC_PNG_UNO_LARGO": {
+    "areaTested": "meta",
+    "description": "Message contains a single large png image",
+    "score": "0.001"
+  },
+  "DEAR_BENEFICIARY": {
+    "areaTested": "body",
+    "description": "Dear Beneficiary:",
+    "score": "2.935"
+  },
+  "DEAR_FRIEND": {
+    "areaTested": "body",
+    "description": "Dear Friend? That's not very dear!",
+    "score": "2.683"
+  },
+  "DEAR_SOMETHING": {
+    "areaTested": "body",
+    "description": "Contains 'Dear (something)'",
+    "score": "1.999"
+  },
+  "DEAR_WINNER": {
+    "areaTested": "body",
+    "description": "Spam with generic salutation of \"dear winner\"",
+    "score": "3.099"
+  },
+  "DIET_1": {
+    "areaTested": "body",
+    "description": "Lose Weight Spam",
+    "score": "0.714"
+  },
+  "DIGEST_MULTIPLE": {
+    "areaTested": "meta",
+    "description": "Message hits more than one network digest check",
+    "score": "0.000"
+  },
+  "DKIMDOMAIN_IN_DWL": {
+    "areaTested": "???",
+    "description": "No description provided",
+    "score": "0.000"
+  },
+  "DKIMDOMAIN_IN_DWL_UNKNOWN": {
+    "areaTested": "???",
+    "description": "No description provided",
+    "score": "0.000"
+  },
+  "DKIMWL_BL": {
+    "areaTested": "meta",
+    "description": "DKIMwl.org - Blacklisted sender",
+    "score": "0.001"
+  },
+  "DKIMWL_BLOCKED": {
+    "areaTested": "meta",
+    "description": "ADMINISTRATOR\n NOTICE: The query to DKIMWL.org was blocked.  See \nhttp://wiki.apache.org/spamassassin/DnsBlocklists\\#dnsbl-block for more \ninformation.",
+    "score": "0.001"
+  },
+  "DKIMWL_WL_HIGH": {
+    "areaTested": "meta",
+    "description": "DKIMwl.org - Whitelisted High sender",
+    "score": "0.001"
+  },
+  "DKIMWL_WL_MED": {
+    "areaTested": "meta",
+    "description": "DKIMwl.org - Medium sender",
+    "score": "0.001"
+  },
+  "DKIMWL_WL_MEDHI": {
+    "areaTested": "meta",
+    "description": "DKIMwl.org - Medium-high sender",
+    "score": "0.001"
+  },
+  "DKIM_ADSP_ALL": {
+    "areaTested": "header",
+    "description": "No valid author signature, domain signs all mail",
+    "score": "0.000"
+  },
+  "DKIM_ADSP_CUSTOM_HIGH": {
+    "areaTested": "header",
+    "description": "No valid author signature, adsp_override is CUSTOM_HIGH",
+    "score": "0.001"
+  },
+  "DKIM_ADSP_CUSTOM_LOW": {
+    "areaTested": "header",
+    "description": "No valid author signature, adsp_override is CUSTOM_LOW",
+    "score": "0.001"
+  },
+  "DKIM_ADSP_CUSTOM_MED": {
+    "areaTested": "header",
+    "description": "No valid author signature, adsp_override is CUSTOM_MED",
+    "score": "0.001"
+  },
+  "DKIM_ADSP_DISCARD": {
+    "areaTested": "header",
+    "description": "No valid author signature, domain signs all mail and suggests discarding the rest",
+    "score": "0.000"
+  },
+  "DKIM_ADSP_NXDOMAIN": {
+    "areaTested": "header",
+    "description": "No valid author signature and domain not in DNS",
+    "score": "0.000"
+  },
+  "DKIM_INVALID": {
+    "areaTested": "meta",
+    "description": "DKIM or DK signature exists, but is not valid",
+    "score": "0.100"
+  },
+  "DKIM_SIGNED": {
+    "areaTested": "full",
+    "description": "Message has a DKIM or DK signature, not necessarily valid",
+    "score": "0.100"
+  },
+  "DKIM_VALID": {
+    "areaTested": "full",
+    "description": "Message has at least one valid DKIM or DK signature",
+    "score": "-0.100"
+  },
+  "DKIM_VALID_AU": {
+    "areaTested": "full",
+    "description": "Message has a valid DKIM or DK signature from author's domain",
+    "score": "-0.100"
+  },
+  "DKIM_VALID_EF": {
+    "areaTested": "full",
+    "description": "Message has a valid DKIM or DK signature from envelope-from domain",
+    "score": "-0.100"
+  },
+  "DOS_OE_TO_MX": {
+    "areaTested": "meta",
+    "description": "Delivered direct to MX with OE headers",
+    "score": "2.602"
+  },
+  "DOS_OE_TO_MX_IMAGE": {
+    "areaTested": "meta",
+    "description": "Direct to MX with OE headers and an image",
+    "score": "2.886"
+  },
+  "DOS_OUTLOOK_TO_MX": {
+    "areaTested": "meta",
+    "description": "Delivered direct to MX with Outlook headers",
+    "score": "2.636"
+  },
+  "DOS_RCVD_IP_TWICE_C": {
+    "areaTested": "header",
+    "description": "Received from the same IP twice in a row (only one external relay; empty or IP helo)",
+    "score": "2.599"
+  },
+  "DOS_STOCK_BAT": {
+    "areaTested": "meta",
+    "description": "Probable pump and dump stock spam",
+    "score": "0.001"
+  },
+  "DRUGS_ANXIETY": {
+    "areaTested": "meta",
+    "description": "Refers to an anxiety control drug",
+    "score": "0.100"
+  },
+  "DRUGS_DIET": {
+    "areaTested": "meta",
+    "description": "Refers to a diet drug",
+    "score": "2.660"
+  },
+  "DRUGS_ERECTILE": {
+    "areaTested": "meta",
+    "description": "Refers to an erectile drug",
+    "score": "1.778"
+  },
+  "DRUGS_ERECTILE_OBFU": {
+    "areaTested": "meta",
+    "description": "Obfuscated reference to an erectile drug",
+    "score": "1.324"
+  },
+  "DRUGS_ERECTILE_SHORT_SHORTNER": {
+    "areaTested": "meta",
+    "description": "Short erectile drugs advert with T_URL_SHORTENER",
+    "score": "0.576"
+  },
+  "DRUGS_MANYKINDS": {
+    "areaTested": "meta",
+    "description": "Refers to at least four kinds of drugs",
+    "score": "2.001"
+  },
+  "DRUGS_MUSCLE": {
+    "areaTested": "meta",
+    "description": "Refers to a muscle relaxant",
+    "score": "0.001"
+  },
+  "DRUGS_SMEAR1": {
+    "areaTested": "body",
+    "description": "Two or more drugs crammed together into one word",
+    "score": "3.300"
+  },
+  "DRUGS_STOCK_MIMEOLE": {
+    "areaTested": "???",
+    "description": "No description provided",
+    "score": "2.699"
+  },
+  "DRUG_ED_CAPS": {
+    "areaTested": "body",
+    "description": "Mentions an E.D. drug",
+    "score": "2.799"
+  },
+  "DRUG_ED_ONLINE": {
+    "areaTested": "body",
+    "description": "Fast Viagra Delivery",
+    "score": "0.696"
+  },
+  "DRUG_ED_SILD": {
+    "areaTested": "body",
+    "description": "Talks about an E.D. drug using its chemical name",
+    "score": "0.001"
+  },
+  "DX_TEXT_02": {
+    "areaTested": "body",
+    "description": "\"change your message stat\"",
+    "score": "1.000"
+  },
+  "DX_TEXT_03": {
+    "areaTested": "body",
+    "description": "\"XXX Media Group\"",
+    "score": "0.900"
+  },
+  "DYN_RDNS_AND_INLINE_IMAGE": {
+    "areaTested": "meta",
+    "description": "Contains image, and was sent by dynamic rDNS",
+    "score": "1.345"
+  },
+  "DYN_RDNS_SHORT_HELO_HTML": {
+    "areaTested": "meta",
+    "description": "Sent by dynamic rDNS, short HELO, and HTML",
+    "score": "0.001"
+  },
+  "DYN_RDNS_SHORT_HELO_IMAGE": {
+    "areaTested": "meta",
+    "description": "Short HELO string, dynamic rDNS, inline image",
+    "score": "1.825"
+  },
+  "EBAY_IMG_NOT_RCVD_EBAY": {
+    "areaTested": "meta",
+    "description": "E-bay hosted image but message not from E-bay",
+    "score": "1.000"
+  },
+  "EMPTY_MESSAGE": {
+    "areaTested": "meta",
+    "description": "Message appears to have no textual parts and no Subject: text",
+    "score": "2.195"
+  },
+  "EM_ROLEX": {
+    "areaTested": "body",
+    "description": "Message puts emphasis on the watch manufacturer",
+    "score": "0.595"
+  },
+  "ENCRYPTED_MESSAGE": {
+    "areaTested": "meta",
+    "description": "Message is encrypted, not likely to be spam",
+    "score": "-1.000"
+  },
+  "ENGLISH_UCE_SUBJECT": {
+    "areaTested": "header",
+    "description": "Subject contains an English UCE tag",
+    "score": "0.953"
+  },
+  "ENV_AND_HDR_SPF_MATCH": {
+    "areaTested": "meta",
+    "description": "Env and Hdr From used in default SPF WL Match",
+    "score": "-0.500"
+  },
+  "EXCUSE_24": {
+    "areaTested": "body",
+    "description": "Claims you wanted this ad",
+    "score": "1.000"
+  },
+  "EXCUSE_4": {
+    "areaTested": "body",
+    "description": "Claims you can be removed from the list",
+    "score": "2.399"
+  },
+  "EXCUSE_REMOVE": {
+    "areaTested": "body",
+    "description": "Talks about how to be removed from mailings",
+    "score": "2.907"
+  },
+  "FAKE_REPLY_C": {
+    "areaTested": "meta",
+    "description": "No description provided",
+    "score": "0.688"
+  },
+  "FBI_MONEY": {
+    "areaTested": "meta",
+    "description": "The FBI wants to give you lots of money?",
+    "score": "1.000"
+  },
+  "FBI_SPOOF": {
+    "areaTested": "meta",
+    "description": "Claims to be FBI, but not from FBI domain",
+    "score": "1.000"
+  },
+  "FILL_THIS_FORM": {
+    "areaTested": "meta",
+    "description": "Fill in a form with personal information",
+    "score": "0.001"
+  },
+  "FILL_THIS_FORM_FRAUD_PHISH": {
+    "areaTested": "???",
+    "description": "No description provided",
+    "score": "1.195"
+  },
+  "FILL_THIS_FORM_LOAN": {
+    "areaTested": "meta",
+    "description": "Answer loan question(s)",
+    "score": "2.092"
+  },
+  "FILL_THIS_FORM_LONG": {
+    "areaTested": "meta",
+    "description": "Fill in a form with personal information",
+    "score": "2.000"
+  },
+  "FIN_FREE": {
+    "areaTested": "body",
+    "description": "Freedom of a financial nature",
+    "score": "0.100"
+  },
+  "FORGED_GMAIL_RCVD": {
+    "areaTested": "header",
+    "description": "'From' gmail.com does not match 'Received' headers",
+    "score": "1.000"
+  },
+  "FORGED_HOTMAIL_RCVD2": {
+    "areaTested": "header",
+    "description": "hotmail.com 'From' address, but no 'Received:'",
+    "score": "0.001"
+  },
+  "FORGED_MSGID_EXCITE": {
+    "areaTested": "meta",
+    "description": "Message-ID is forged, (excite.com)",
+    "score": "2.399"
+  },
+  "FORGED_MSGID_YAHOO": {
+    "areaTested": "meta",
+    "description": "Message-ID is forged, (yahoo.com)",
+    "score": "0.100"
+  },
+  "FORGED_MUA_EUDORA": {
+    "areaTested": "meta",
+    "description": "Forged mail pretending to be from Eudora",
+    "score": "2.828"
+  },
+  "FORGED_MUA_IMS": {
+    "areaTested": "meta",
+    "description": "Forged mail pretending to be from IMS",
+    "score": "2.399"
+  },
+  "FORGED_MUA_MOZILLA": {
+    "areaTested": "meta",
+    "description": "Forged mail pretending to be from Mozilla",
+    "score": "2.399"
+  },
+  "FORGED_MUA_OIMO": {
+    "areaTested": "meta",
+    "description": "Forged mail pretending to be from MS Outlook IMO",
+    "score": "2.600"
+  },
+  "FORGED_MUA_OUTLOOK": {
+    "areaTested": "meta",
+    "description": "Forged mail pretending to be from MS Outlook",
+    "score": "3.999"
+  },
+  "FORGED_MUA_THEBAT_BOUN": {
+    "areaTested": "meta",
+    "description": "Mail pretending to be from The Bat! (boundary)",
+    "score": "3.046"
+  },
+  "FORGED_OUTLOOK_HTML": {
+    "areaTested": "meta",
+    "description": "Outlook can't send HTML message only",
+    "score": "0.001"
+  },
+  "FORGED_OUTLOOK_TAGS": {
+    "areaTested": "meta",
+    "description": "Outlook can't send HTML in this format",
+    "score": "0.003"
+  },
+  "FORGED_TELESP_RCVD": {
+    "areaTested": "header",
+    "description": "Contains forged hostname for a DSL IP in Brazil",
+    "score": "2.499"
+  },
+  "FORGED_YAHOO_RCVD": {
+    "areaTested": "header",
+    "description": "'From' yahoo.com does not match 'Received' headers",
+    "score": "2.397"
+  },
+  "FORM_FRAUD": {
+    "areaTested": "meta",
+    "description": "Fill a form and a fraud phrase",
+    "score": "0.999"
+  },
+  "FORM_FRAUD_3": {
+    "areaTested": "meta",
+    "description": "Fill a form and several fraud phrases",
+    "score": "1.226"
+  },
+  "FORM_FRAUD_5": {
+    "areaTested": "meta",
+    "description": "Fill a form and many fraud phrases",
+    "score": "0.840"
+  },
+  "FORM_LOW_CONTRAST": {
+    "areaTested": "meta",
+    "description": "Fill in a form with hidden text",
+    "score": "1.000"
+  },
+  "FOUND_YOU": {
+    "areaTested": "meta",
+    "description": "I found you...",
+    "score": "3.249"
+  },
+  "FREEMAIL_ENVFROM_END_DIGIT": {
+    "areaTested": "header",
+    "description": "Envelope-from freemail username ends in digit",
+    "score": "0.250"
+  },
+  "FREEMAIL_FORGED_FROMDOMAIN": {
+    "areaTested": "meta",
+    "description": "2nd level domains in From and EnvelopeFrom freemail headers are different",
+    "score": "0.249"
+  },
+  "FREEMAIL_FORGED_REPLYTO": {
+    "areaTested": "meta",
+    "description": "Freemail in Reply-To, but not From",
+    "score": "1.199"
+  },
+  "FREEMAIL_FROM": {
+    "areaTested": "header",
+    "description": "Sender email is commonly abused enduser mail provider",
+    "score": "0.001"
+  },
+  "FREEMAIL_REPLY": {
+    "areaTested": "meta",
+    "description": "From and body contain different freemails",
+    "score": "1.000"
+  },
+  "FREEMAIL_REPLYTO": {
+    "areaTested": "meta",
+    "description": "Reply-To/From or Reply-To/body contain different freemails",
+    "score": "1.000"
+  },
+  "FREEMAIL_REPLYTO_END_DIGIT": {
+    "areaTested": "header",
+    "description": "Reply-To freemail username ends in digit",
+    "score": "0.250"
+  },
+  "FREEM_FRNUM_UNICD_EMPTY": {
+    "areaTested": "meta",
+    "description": "Numeric freemail From address, unicode From name and Subject, empty body",
+    "score": "1.000"
+  },
+  "FREE_QUOTE_INSTANT": {
+    "areaTested": "body",
+    "description": "Free express or no-obligation quote",
+    "score": "2.700"
+  },
+  "FRNAME_IN_MSG_XPRIO_NO_SUB": {
+    "areaTested": "meta",
+    "description": "From name in message + X-Priority + short or no subject",
+    "score": "1.000"
+  },
+  "FROMSPACE": {
+    "areaTested": "header",
+    "description": "Idiosyncratic \"From\" header format",
+    "score": "3.199"
+  },
+  "FROM_2_EMAILS_SHORT": {
+    "areaTested": "meta",
+    "description": "Short body and From looks like 2 different emails",
+    "score": "1.999"
+  },
+  "FROM_ADDR_WS": {
+    "areaTested": "meta",
+    "description": "Malformed From address",
+    "score": "2.999"
+  },
+  "FROM_BANK_NOAUTH": {
+    "areaTested": "meta",
+    "description": "From Bank domain but no SPF or DKIM",
+    "score": "0.001"
+  },
+  "FROM_BLANK_NAME": {
+    "areaTested": "header",
+    "description": "From: contains empty name",
+    "score": "2.099"
+  },
+  "FROM_DOMAIN_NOVOWEL": {
+    "areaTested": "header",
+    "description": "From: domain has series of non-vowel letters",
+    "score": "0.500"
+  },
+  "FROM_EXCESS_BASE64": {
+    "areaTested": "meta",
+    "description": "From: base64 encoded unnecessarily",
+    "score": "0.001"
+  },
+  "FROM_FMBLA_NDBLOCKED": {
+    "areaTested": "meta",
+    "description": "ADMINISTRATOR\n NOTICE: The query to fresh.fmb.la was blocked. See \nhttp://wiki.apache.org/spamassassin/DnsBlocklists\\#dnsbl-block for more \ninformation.",
+    "score": "0.001"
+  },
+  "FROM_FMBLA_NEWDOM": {
+    "areaTested": "meta",
+    "description": "From domain was registered in last 7 days",
+    "score": "0.001"
+  },
+  "FROM_FMBLA_NEWDOM14": {
+    "areaTested": "meta",
+    "description": "From domain was registered in last 7-14 days",
+    "score": "0.001"
+  },
+  "FROM_FMBLA_NEWDOM28": {
+    "areaTested": "meta",
+    "description": "From domain was registered in last 14-28 days",
+    "score": "0.001"
+  },
+  "FROM_GOV_DKIM_AU": {
+    "areaTested": "meta",
+    "description": "From Government address and DKIM signed",
+    "score": "0.001"
+  },
+  "FROM_GOV_REPLYTO_FREEMAIL": {
+    "areaTested": "meta",
+    "description": "From Government domain but ReplyTo is FREEMAIL",
+    "score": "0.001"
+  },
+  "FROM_GOV_SPOOF": {
+    "areaTested": "meta",
+    "description": "From Government domain but matches SPOOFED",
+    "score": "0.001"
+  },
+  "FROM_ILLEGAL_CHARS": {
+    "areaTested": "header",
+    "description": "From: has too many raw illegal characters",
+    "score": "2.192"
+  },
+  "FROM_IN_TO_AND_SUBJ": {
+    "areaTested": "meta",
+    "description": "From address is in To and Subject",
+    "score": "0.853"
+  },
+  "FROM_LOCAL_DIGITS": {
+    "areaTested": "header",
+    "description": "From: localpart has long digit sequence",
+    "score": "0.001"
+  },
+  "FROM_LOCAL_HEX": {
+    "areaTested": "header",
+    "description": "From: localpart has long hexadecimal sequence",
+    "score": "0.000"
+  },
+  "FROM_LOCAL_NOVOWEL": {
+    "areaTested": "header",
+    "description": "From: localpart has series of non-vowel letters",
+    "score": "0.500"
+  },
+  "FROM_MISSPACED": {
+    "areaTested": "meta",
+    "description": "From: missing whitespace",
+    "score": "0.001"
+  },
+  "FROM_MISSP_DYNIP": {
+    "areaTested": "meta",
+    "description": "From misspaced + dynamic rDNS",
+    "score": "2.177"
+  },
+  "FROM_MISSP_EH_MATCH": {
+    "areaTested": "meta",
+    "description": "From misspaced, matches envelope",
+    "score": "0.240"
+  },
+  "FROM_MISSP_FREEMAIL": {
+    "areaTested": "meta",
+    "description": "From misspaced + freemail provider",
+    "score": "0.551"
+  },
+  "FROM_MISSP_MSFT": {
+    "areaTested": "meta",
+    "description": "From misspaced + supposed Microsoft tool",
+    "score": "0.001"
+  },
+  "FROM_MISSP_PHISH": {
+    "areaTested": "meta",
+    "description": "Malformed, claims to be from financial organization - possible phish",
+    "score": "1.000"
+  },
+  "FROM_MISSP_REPLYTO": {
+    "areaTested": "meta",
+    "description": "From misspaced, has Reply-To",
+    "score": "0.001"
+  },
+  "FROM_MISSP_SPF_FAIL": {
+    "areaTested": "meta",
+    "description": "No description provided",
+    "score": "0.001"
+  },
+  "FROM_MISSP_TO_UNDISC": {
+    "areaTested": "meta",
+    "description": "From misspaced, To undisclosed",
+    "score": "0.001"
+  },
+  "FROM_MISSP_USER": {
+    "areaTested": "meta",
+    "description": "From misspaced, from \"User\"",
+    "score": "0.001"
+  },
+  "FROM_MISSP_XPRIO": {
+    "areaTested": "meta",
+    "description": "Misspaced FROM + X-Priority",
+    "score": "0.001"
+  },
+  "FROM_NAME_EQ_TO_G_DRIVE": {
+    "areaTested": "meta",
+    "description": "From:name equals To:addr and GDRIVE link",
+    "score": "0.099"
+  },
+  "FROM_NO_USER": {
+    "areaTested": "header",
+    "description": "From: has no local-part before @ sign",
+    "score": "0.001"
+  },
+  "FROM_NTLD_LINKBAIT": {
+    "areaTested": "meta",
+    "description": "From abused NTLD with little more than a URI",
+    "score": "1.000"
+  },
+  "FROM_NTLD_REPLY_FREEMAIL": {
+    "areaTested": "meta",
+    "description": "From abused NTLD and Reply-To is FREEMAIL",
+    "score": "1.999"
+  },
+  "FROM_NUMBERO_NEWDOMAIN": {
+    "areaTested": "meta",
+    "description": "Fingerprint and new domain",
+    "score": "0.001"
+  },
+  "FROM_NUMERIC_TLD": {
+    "areaTested": "header",
+    "description": "From: address has numeric TLD",
+    "score": "1.000"
+  },
+  "FROM_OFFERS": {
+    "areaTested": "header",
+    "description": "From address is \"at something-offers\"",
+    "score": "1.000"
+  },
+  "FROM_PAYPAL_SPOOF": {
+    "areaTested": "meta",
+    "description": "From PayPal domain but matches SPOOFED",
+    "score": "0.001"
+  },
+  "FROM_STARTS_WITH_NUMS": {
+    "areaTested": "header",
+    "description": "From: starts with several numbers",
+    "score": "2.801"
+  },
+  "FROM_SUSPICIOUS_NTLD": {
+    "areaTested": "meta",
+    "description": "From abused NTLD",
+    "score": "0.500"
+  },
+  "FROM_WORDY": {
+    "areaTested": "meta",
+    "description": "From address looks like a sentence",
+    "score": "0.106"
+  },
+  "FROM_WORDY_SHORT": {
+    "areaTested": "meta",
+    "description": "From address looks like a sentence + short message",
+    "score": "0.988"
+  },
+  "FROM_WSP_TRAIL": {
+    "areaTested": "header",
+    "description": "Trailing whitespace before '&gt;' in From header field",
+    "score": "2.540"
+  },
+  "FSL_BULK_SIG": {
+    "areaTested": "meta",
+    "description": "Bulk signature with no Unsubscribe",
+    "score": "0.001"
+  },
+  "FSL_CTYPE_WIN1251": {
+    "areaTested": "header",
+    "description": "Content-Type only seen in 419 spam",
+    "score": "0.361"
+  },
+  "FSL_FAKE_HOTMAIL_RVCD": {
+    "areaTested": "header",
+    "description": "No description provided",
+    "score": "2.631"
+  },
+  "FSL_HELO_BARE_IP_1": {
+    "areaTested": "meta",
+    "description": "No description provided",
+    "score": "2.598"
+  },
+  "FSL_HELO_DEVICE": {
+    "areaTested": "header",
+    "description": "No description provided",
+    "score": "0.100"
+  },
+  "FSL_HELO_FAKE": {
+    "areaTested": "header",
+    "description": "No description provided",
+    "score": "3.899"
+  },
+  "FSL_HELO_NON_FQDN_1": {
+    "areaTested": "header",
+    "description": "No description provided",
+    "score": "2.361"
+  },
+  "FSL_INTERIA_ABUSE": {
+    "areaTested": "uri",
+    "description": "No description provided",
+    "score": "3.899"
+  },
+  "FSL_NEW_HELO_USER": {
+    "areaTested": "meta",
+    "description": "Spam's using Helo and User",
+    "score": "0.001"
+  },
+  "FSL_THIS_IS_ADV": {
+    "areaTested": "body",
+    "description": "This is an advertisement",
+    "score": "3.100"
+  },
+  "FUZZY_ANDROID": {
+    "areaTested": "body",
+    "description": "Obfuscated \"android\"",
+    "score": "1.000"
+  },
+  "FUZZY_BITCOIN": {
+    "areaTested": "body",
+    "description": "Obfuscated \"Bitcoin\"",
+    "score": "1.000"
+  },
+  "FUZZY_BROWSER": {
+    "areaTested": "body",
+    "description": "Obfuscated \"browser\"",
+    "score": "1.000"
+  },
+  "FUZZY_BTC_WALLET": {
+    "areaTested": "meta",
+    "description": "Heavily obfuscated \"bitcoin wallet\"",
+    "score": "1.000"
+  },
+  "FUZZY_CLICK_HERE": {
+    "areaTested": "body",
+    "description": "Obfuscated \"click here\"",
+    "score": "2.799"
+  },
+  "FUZZY_CPILL": {
+    "areaTested": "body",
+    "description": "Attempt to obfuscate words in spam",
+    "score": "0.001"
+  },
+  "FUZZY_CREDIT": {
+    "areaTested": "body",
+    "description": "Attempt to obfuscate words in spam",
+    "score": "1.699"
+  },
+  "FUZZY_DR_OZ": {
+    "areaTested": "meta",
+    "description": "Obfuscated Doctor Oz",
+    "score": "1.000"
+  },
+  "FUZZY_IMPORTANT": {
+    "areaTested": "body",
+    "description": "Obfuscated \"important\"",
+    "score": "1.000"
+  },
+  "FUZZY_MILLION": {
+    "areaTested": "body",
+    "description": "Attempt to obfuscate words in spam",
+    "score": "0.100"
+  },
+  "FUZZY_PHARMACY": {
+    "areaTested": "body",
+    "description": "Attempt to obfuscate words in spam",
+    "score": "2.960"
+  },
+  "FUZZY_PHENT": {
+    "areaTested": "body",
+    "description": "Attempt to obfuscate words in spam",
+    "score": "2.799"
+  },
+  "FUZZY_PRICES": {
+    "areaTested": "body",
+    "description": "Attempt to obfuscate words in spam",
+    "score": "1.821"
+  },
+  "FUZZY_PRIVACY": {
+    "areaTested": "body",
+    "description": "Obfuscated \"privacy\"",
+    "score": "1.000"
+  },
+  "FUZZY_PROMOTION": {
+    "areaTested": "body",
+    "description": "Obfuscated \"promotion\"",
+    "score": "1.000"
+  },
+  "FUZZY_SAVINGS": {
+    "areaTested": "body",
+    "description": "Obfuscated \"savings\"",
+    "score": "1.000"
+  },
+  "FUZZY_SECURITY": {
+    "areaTested": "body",
+    "description": "Obfuscated \"security\"",
+    "score": "1.000"
+  },
+  "FUZZY_UNSUBSCRIBE": {
+    "areaTested": "body",
+    "description": "Obfuscated \"unsubscribe\"",
+    "score": "2.599"
+  },
+  "FUZZY_VPILL": {
+    "areaTested": "body",
+    "description": "Attempt to obfuscate words in spam",
+    "score": "0.001"
+  },
+  "FUZZY_WALLET": {
+    "areaTested": "body",
+    "description": "Obfuscated \"Wallet\"",
+    "score": "1.000"
+  },
+  "FUZZY_XPILL": {
+    "areaTested": "body",
+    "description": "Attempt to obfuscate words in spam",
+    "score": "0.100"
+  },
+  "GAPPY_SALES_LEADS_FREEM": {
+    "areaTested": "meta",
+    "description": "Obfuscated marketing text, freemail or CHN replyto",
+    "score": "1.000"
+  },
+  "GAPPY_SUBJECT": {
+    "areaTested": "meta",
+    "description": "Subject: contains G.a.p.p.y-T.e.x.t",
+    "score": "0.100"
+  },
+  "GB_FORGED_MUA_POSTFIX": {
+    "areaTested": "meta",
+    "description": "Forged Postfix mua headers",
+    "score": "1.999"
+  },
+  "GB_FREEMAIL_DISPTO": {
+    "areaTested": "meta",
+    "description": "Disposition-Notification-To/From or Disposition-Notification-To/body contain different freemails",
+    "score": "0.499"
+  },
+  "GB_FREEMAIL_DISPTO_NOTFREEM": {
+    "areaTested": "meta",
+    "description": "Disposition-Notification-To/From contain different freemails but mailfrom is not a freemail",
+    "score": "0.499"
+  },
+  "GB_GOOGLE_OBFU": {
+    "areaTested": "uri",
+    "description": "Obfuscate url through Google redirect",
+    "score": "0.749"
+  },
+  "GB_GOOG_IMG_NOT_RCVD_GOOG": {
+    "areaTested": "meta",
+    "description": "Google hosted image but message not from Google",
+    "score": "2.499"
+  },
+  "GMD_PDF_EMPTY_BODY": {
+    "areaTested": "body",
+    "description": "Attached PDF with empty message body",
+    "score": "0.250"
+  },
+  "GMD_PDF_ENCRYPTED": {
+    "areaTested": "body",
+    "description": "Attached PDF is encrypted",
+    "score": "0.600"
+  },
+  "GMD_PDF_HORIZ": {
+    "areaTested": "body",
+    "description": "Contains pdf 100-240 (high) x 450-800 (wide)",
+    "score": "0.250"
+  },
+  "GMD_PDF_SQUARE": {
+    "areaTested": "body",
+    "description": "Contains pdf 180-360 (high) x 180-360 (wide)",
+    "score": "0.500"
+  },
+  "GMD_PDF_VERT": {
+    "areaTested": "body",
+    "description": "Contains pdf 450-800 (high) x 100-240 (wide)",
+    "score": "0.900"
+  },
+  "GMD_PRODUCER_EASYPDF": {
+    "areaTested": "body",
+    "description": "PDF producer was BCL easyPDF",
+    "score": "0.250"
+  },
+  "GMD_PRODUCER_GPL": {
+    "areaTested": "body",
+    "description": "PDF producer was GPL Ghostscript",
+    "score": "0.250"
+  },
+  "GMD_PRODUCER_POWERPDF": {
+    "areaTested": "body",
+    "description": "PDF producer was PowerPDF",
+    "score": "0.250"
+  },
+  "GOOGLE_DOCS_PHISH": {
+    "areaTested": "meta",
+    "description": "Possible phishing via a Google Docs form",
+    "score": "1.000"
+  },
+  "GOOGLE_DOCS_PHISH_MANY": {
+    "areaTested": "meta",
+    "description": "Phishing via a Google Docs form",
+    "score": "1.000"
+  },
+  "GOOGLE_DRIVE_REPLY_BAD_NTLD": {
+    "areaTested": "meta",
+    "description": "From Google Drive and Reply-To is from a suspicious TLD",
+    "score": "1.000"
+  },
+  "GOOG_MALWARE_DNLD": {
+    "areaTested": "meta",
+    "description": "File download via Google - Malware?",
+    "score": "1.000"
+  },
+  "GOOG_REDIR_HTML_ONLY": {
+    "areaTested": "meta",
+    "description": "Google redirect to obscure spamvertised website + HTML only",
+    "score": "1.999"
+  },
+  "GOOG_REDIR_NORDNS": {
+    "areaTested": "meta",
+    "description": "Google redirect to obscure spamvertised website + no rDNS",
+    "score": "0.001"
+  },
+  "GOOG_REDIR_SHORT": {
+    "areaTested": "meta",
+    "description": "Google redirect to obscure spamvertised website + short message",
+    "score": "1.000"
+  },
+  "GTUBE": {
+    "areaTested": "body",
+    "description": "Generic Test for Unsolicited Bulk Email",
+    "score": "1000.000"
+  },
+  "GUARANTEED_100_PERCENT": {
+    "areaTested": "body",
+    "description": "One hundred percent guaranteed",
+    "score": "2.699"
+  },
+  "HDRS_LCASE_IMGONLY": {
+    "areaTested": "meta",
+    "description": "Odd capitalization of message headers + image-only HTML",
+    "score": "0.100"
+  },
+  "HDR_ORDER_FTSDMCXX_DIRECT": {
+    "areaTested": "meta",
+    "description": "Header order similar to spam (FTSDMCXX/boundary variant) + direct-to-MX",
+    "score": "1.999"
+  },
+  "HDR_ORDER_FTSDMCXX_NORDNS": {
+    "areaTested": "meta",
+    "description": "Header order similar to spam (FTSDMCXX/boundary variant) + no rDNS",
+    "score": "0.351"
+  },
+  "HEADER_FROM_DIFFERENT_DOMAINS": {
+    "areaTested": "header",
+    "description": "From and EnvelopeFrom 2nd level mail domains are different",
+    "score": "0.249"
+  },
+  "HEADER_HOST_IN_BLACKLIST": {
+    "areaTested": "???",
+    "description": "No description provided",
+    "score": "100.000"
+  },
+  "HEADER_HOST_IN_WHITELIST": {
+    "areaTested": "???",
+    "description": "No description provided",
+    "score": "-100.000"
+  },
+  "HEADER_SPAM": {
+    "areaTested": "header",
+    "description": "Bulk email fingerprint (header-based) found",
+    "score": "2.499"
+  },
+  "HELO_DYNAMIC_CHELLO_NL": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (Chello.nl)",
+    "score": "2.412"
+  },
+  "HELO_DYNAMIC_DHCP": {
+    "areaTested": "meta",
+    "description": "Relay HELO'd using suspicious hostname (DHCP)",
+    "score": "2.602"
+  },
+  "HELO_DYNAMIC_DIALIN": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (T-Dialin)",
+    "score": "2.629"
+  },
+  "HELO_DYNAMIC_HCC": {
+    "areaTested": "meta",
+    "description": "Relay HELO'd using suspicious hostname (HCC)",
+    "score": "4.299"
+  },
+  "HELO_DYNAMIC_HEXIP": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (Hex IP)",
+    "score": "2.321"
+  },
+  "HELO_DYNAMIC_HOME_NL": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (Home.nl)",
+    "score": "2.385"
+  },
+  "HELO_DYNAMIC_IPADDR": {
+    "areaTested": "meta",
+    "description": "Relay HELO'd using suspicious hostname (IP addr 1)",
+    "score": "2.633"
+  },
+  "HELO_DYNAMIC_IPADDR2": {
+    "areaTested": "meta",
+    "description": "Relay HELO'd using suspicious hostname (IP addr 2)",
+    "score": "2.815"
+  },
+  "HELO_DYNAMIC_SPLIT_IP": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (Split IP)",
+    "score": "3.031"
+  },
+  "HELO_LH_HOME": {
+    "areaTested": "???",
+    "description": "No description provided",
+    "score": "0.001"
+  },
+  "HELO_LOCALHOST": {
+    "areaTested": "header",
+    "description": "No description provided",
+    "score": "2.639"
+  },
+  "HELO_MISC_IP": {
+    "areaTested": "meta",
+    "description": "Looking for more Dynamic IP Relays",
+    "score": "0.249"
+  },
+  "HELO_NO_DOMAIN": {
+    "areaTested": "meta",
+    "description": "Relay reports its domain incorrectly",
+    "score": "1.639"
+  },
+  "HELO_OEM": {
+    "areaTested": "header",
+    "description": "No description provided",
+    "score": "2.899"
+  },
+  "HELO_STATIC_HOST": {
+    "areaTested": "meta",
+    "description": "Relay HELO'd using static hostname",
+    "score": "-0.001"
+  },
+  "HEXHASH_WORD": {
+    "areaTested": "meta",
+    "description": "Multiple instances of word + hexadecimal hash",
+    "score": "2.600"
+  },
+  "HIDE_WIN_STATUS": {
+    "areaTested": "rawbody",
+    "description": "Javascript to hide URLs in browser",
+    "score": "0.001"
+  },
+  "HK_LOTTO": {
+    "areaTested": "meta",
+    "description": "No description provided",
+    "score": "0.999"
+  },
+  "HK_NAME_DRUGS": {
+    "areaTested": "header",
+    "description": "From name contains drugs",
+    "score": "4.299"
+  },
+  "HK_NAME_FM_MR_MRS": {
+    "areaTested": "meta",
+    "description": "No description provided",
+    "score": "1.499"
+  },
+  "HK_NAME_FROM": {
+    "areaTested": "meta",
+    "description": "No description provided",
+    "score": "0.999"
+  },
+  "HK_NAME_MR_MRS": {
+    "areaTested": "meta",
+    "description": "No description provided",
+    "score": "0.999"
+  },
+  "HK_RANDOM_ENVFROM": {
+    "areaTested": "header",
+    "description": "Envelope sender username looks random",
+    "score": "2.638"
+  },
+  "HK_RANDOM_FROM": {
+    "areaTested": "header",
+    "description": "From username looks random",
+    "score": "1.000"
+  },
+  "HK_RANDOM_REPLYTO": {
+    "areaTested": "header",
+    "description": "Reply-To username looks random",
+    "score": "0.999"
+  },
+  "HK_RCVD_IP_MULTICAST": {
+    "areaTested": "header",
+    "description": "No description provided",
+    "score": "0.340"
+  },
+  "HK_SCAM": {
+    "areaTested": "meta",
+    "description": "No description provided",
+    "score": "1.999"
+  },
+  "HOSTED_IMG_DIRECT_MX": {
+    "areaTested": "meta",
+    "description": "Image hosted at large ecomm site, message direct-to-mx",
+    "score": "3.500"
+  },
+  "HOSTED_IMG_DQ_UNSUB": {
+    "areaTested": "meta",
+    "description": "Image hosted at large ecomm site, IP addr unsub link",
+    "score": "1.000"
+  },
+  "HOSTED_IMG_FREEM": {
+    "areaTested": "meta",
+    "description": "Image hosted at large ecomm site, freemail from or reply-to",
+    "score": "1.000"
+  },
+  "HTML_CHARSET_FARAWAY": {
+    "areaTested": "meta",
+    "description": "A foreign language charset used in HTML markup",
+    "score": "0.500"
+  },
+  "HTML_COMMENT_SAVED_URL": {
+    "areaTested": "body",
+    "description": "HTML message is a saved web page",
+    "score": "0.198"
+  },
+  "HTML_EMBEDS": {
+    "areaTested": "body",
+    "description": "HTML with embedded plugin object",
+    "score": "0.001"
+  },
+  "HTML_ENTITY_ASCII": {
+    "areaTested": "meta",
+    "description": "Obfuscated ASCII",
+    "score": "2.504"
+  },
+  "HTML_ENTITY_ASCII_TINY": {
+    "areaTested": "meta",
+    "description": "Obfuscated ASCII + tiny fonts",
+    "score": "1.000"
+  },
+  "HTML_EXTRA_CLOSE": {
+    "areaTested": "body",
+    "description": "HTML contains far too many close tags",
+    "score": "0.001"
+  },
+  "HTML_FONT_FACE_BAD": {
+    "areaTested": "body",
+    "description": "HTML font face is not a word",
+    "score": "0.001"
+  },
+  "HTML_FONT_LOW_CONTRAST": {
+    "areaTested": "body",
+    "description": "HTML font color similar or identical to background",
+    "score": "0.713"
+  },
+  "HTML_FONT_SIZE_HUGE": {
+    "areaTested": "body",
+    "description": "HTML font size is huge",
+    "score": "0.001"
+  },
+  "HTML_FONT_SIZE_LARGE": {
+    "areaTested": "body",
+    "description": "HTML font size is large",
+    "score": "0.001"
+  },
+  "HTML_IMAGE_ONLY_04": {
+    "areaTested": "body",
+    "description": "HTML: images with 0-400 bytes of words",
+    "score": "1.680"
+  },
+  "HTML_IMAGE_ONLY_08": {
+    "areaTested": "body",
+    "description": "HTML: images with 400-800 bytes of words",
+    "score": "0.585"
+  },
+  "HTML_IMAGE_ONLY_12": {
+    "areaTested": "body",
+    "description": "HTML: images with 800-1200 bytes of words",
+    "score": "1.381"
+  },
+  "HTML_IMAGE_ONLY_16": {
+    "areaTested": "body",
+    "description": "HTML: images with 1200-1600 bytes of words",
+    "score": "1.969"
+  },
+  "HTML_IMAGE_ONLY_20": {
+    "areaTested": "body",
+    "description": "HTML: images with 1600-2000 bytes of words",
+    "score": "2.109"
+  },
+  "HTML_IMAGE_ONLY_24": {
+    "areaTested": "body",
+    "description": "HTML: images with 2000-2400 bytes of words",
+    "score": "2.799"
+  },
+  "HTML_IMAGE_ONLY_28": {
+    "areaTested": "body",
+    "description": "HTML: images with 2400-2800 bytes of words",
+    "score": "2.799"
+  },
+  "HTML_IMAGE_ONLY_32": {
+    "areaTested": "body",
+    "description": "HTML: images with 2800-3200 bytes of words",
+    "score": "2.196"
+  },
+  "HTML_IMAGE_RATIO_02": {
+    "areaTested": "body",
+    "description": "HTML has a low ratio of text to image area",
+    "score": "0.001"
+  },
+  "HTML_IMAGE_RATIO_04": {
+    "areaTested": "body",
+    "description": "HTML has a low ratio of text to image area",
+    "score": "0.001"
+  },
+  "HTML_IMAGE_RATIO_06": {
+    "areaTested": "body",
+    "description": "HTML has a low ratio of text to image area",
+    "score": "0.001"
+  },
+  "HTML_IMAGE_RATIO_08": {
+    "areaTested": "body",
+    "description": "HTML has a low ratio of text to image area",
+    "score": "0.001"
+  },
+  "HTML_MESSAGE": {
+    "areaTested": "body",
+    "description": "HTML included in message",
+    "score": "0.001"
+  },
+  "HTML_MIME_NO_HTML_TAG": {
+    "areaTested": "meta",
+    "description": "HTML-only message, but there is no HTML tag",
+    "score": "0.001"
+  },
+  "HTML_NONELEMENT_30_40": {
+    "areaTested": "body",
+    "description": "30% to 40% of HTML elements are non-standard",
+    "score": "0.000"
+  },
+  "HTML_OBFUSCATE_05_10": {
+    "areaTested": "body",
+    "description": "Message is 5% to 10% HTML obfuscation",
+    "score": "0.601"
+  },
+  "HTML_OBFUSCATE_10_20": {
+    "areaTested": "body",
+    "description": "Message is 10% to 20% HTML obfuscation",
+    "score": "0.174"
+  },
+  "HTML_OBFUSCATE_20_30": {
+    "areaTested": "body",
+    "description": "Message is 20% to 30% HTML obfuscation",
+    "score": "2.499"
+  },
+  "HTML_OBFUSCATE_90_100": {
+    "areaTested": "body",
+    "description": "Message is 90% to 100% HTML obfuscation",
+    "score": "2.000"
+  },
+  "HTML_OFF_PAGE": {
+    "areaTested": "meta",
+    "description": "HTML element rendered well off the displayed page",
+    "score": "2.999"
+  },
+  "HTML_SHORT_CENTER": {
+    "areaTested": "meta",
+    "description": "HTML is very short with CENTER tag",
+    "score": "3.799"
+  },
+  "HTML_SHORT_LINK_IMG_1": {
+    "areaTested": "meta",
+    "description": "HTML is very short with a linked image",
+    "score": "2.215"
+  },
+  "HTML_SHORT_LINK_IMG_2": {
+    "areaTested": "meta",
+    "description": "HTML is very short with a linked image",
+    "score": "1.419"
+  },
+  "HTML_SHORT_LINK_IMG_3": {
+    "areaTested": "meta",
+    "description": "HTML is very short with a linked image",
+    "score": "0.691"
+  },
+  "HTML_SHRT_CMNT_OBFU_MANY": {
+    "areaTested": "meta",
+    "description": "Obfuscation with many short HTML comments",
+    "score": "1.336"
+  },
+  "HTML_SINGLET_MANY": {
+    "areaTested": "meta",
+    "description": "Many single-letter HTML format blocks",
+    "score": "1.787"
+  },
+  "HTML_TAG_BALANCE_BODY": {
+    "areaTested": "body",
+    "description": "HTML has unbalanced \"body\" tags",
+    "score": "0.100"
+  },
+  "HTML_TAG_BALANCE_HEAD": {
+    "areaTested": "body",
+    "description": "HTML has unbalanced \"head\" tags",
+    "score": "0.520"
+  },
+  "HTML_TEXT_INVISIBLE_FONT": {
+    "areaTested": "meta",
+    "description": "HTML hidden text",
+    "score": "1.000"
+  },
+  "HTML_TEXT_INVISIBLE_STYLE": {
+    "areaTested": "meta",
+    "description": "HTML hidden text + other spam signs",
+    "score": "0.001"
+  },
+  "HTML_TITLE_SUBJ_DIFF": {
+    "areaTested": "meta",
+    "description": "No description provided",
+    "score": "1.149"
+  },
+  "HTTPS_HTTP_MISMATCH": {
+    "areaTested": "body",
+    "description": "No description provided",
+    "score": "0.100"
+  },
+  "HTTP_ESCAPED_HOST": {
+    "areaTested": "uri",
+    "description": "Uses %-escapes inside a URL's hostname",
+    "score": "0.100"
+  },
+  "HTTP_EXCESSIVE_ESCAPES": {
+    "areaTested": "uri",
+    "description": "Completely unnecessary %-escapes inside a URL",
+    "score": "0.001"
+  },
+  "IMG_ALT_HSPACE_CID_ALIGN": {
+    "areaTested": "rawbody",
+    "description": "No description provided",
+    "score": "0.999"
+  },
+  "IMG_ONLY_FM_DOM_INFO": {
+    "areaTested": "meta",
+    "description": "HTML image-only message from .info domain",
+    "score": "2.339"
+  },
+  "IMPOTENCE": {
+    "areaTested": "body",
+    "description": "Impotence cure",
+    "score": "1.539"
+  },
+  "INVALID_DATE": {
+    "areaTested": "header",
+    "description": "Invalid Date: header (not RFC 2822)",
+    "score": "1.701"
+  },
+  "INVALID_DATE_TZ_ABSURD": {
+    "areaTested": "header",
+    "description": "Invalid Date: header (timezone does not exist)",
+    "score": "0.262"
+  },
+  "INVALID_MSGID": {
+    "areaTested": "meta",
+    "description": "Message-Id is not valid, according to RFC 2822",
+    "score": "2.602"
+  },
+  "INVESTMENT_ADVICE": {
+    "areaTested": "body",
+    "description": "Message mentions investment advice",
+    "score": "0.100"
+  },
+  "IP_LINK_PLUS": {
+    "areaTested": "uri",
+    "description": "Dotted-decimal IP address followed by CGI",
+    "score": "0.001"
+  },
+  "JOIN_MILLIONS": {
+    "areaTested": "body",
+    "description": "Join Millions of Americans",
+    "score": "0.100"
+  },
+  "KB_DATE_CONTAINS_TAB": {
+    "areaTested": "meta",
+    "description": "No description provided",
+    "score": "3.800"
+  },
+  "KB_FAKED_THE_BAT": {
+    "areaTested": "meta",
+    "description": "No description provided",
+    "score": "2.432"
+  },
+  "KB_FORGED_MOZ4": {
+    "areaTested": "header",
+    "description": "Mozilla 4 uses X-Mailer",
+    "score": "3.699"
+  },
+  "KB_RATWARE_MSGID": {
+    "areaTested": "meta",
+    "description": "No description provided",
+    "score": "4.099"
+  },
+  "KB_RATWARE_OUTLOOK_MID": {
+    "areaTested": "header",
+    "description": "No description provided",
+    "score": "4.400"
+  },
+  "LIST_PARTIAL_SHORT_MSG": {
+    "areaTested": "meta",
+    "description": "Incomplete mailing list headers + short message",
+    "score": "2.499"
+  },
+  "LIST_PRTL_PUMPDUMP": {
+    "areaTested": "meta",
+    "description": "Incomplete List-* headers and stock pump-and-dump",
+    "score": "1.000"
+  },
+  "LIST_PRTL_SAME_USER": {
+    "areaTested": "meta",
+    "description": "Incomplete List-* headers and from+to user the same",
+    "score": "0.001"
+  },
+  "LIVEFILESTORE": {
+    "areaTested": "uri",
+    "description": "No description provided",
+    "score": "0.100"
+  },
+  "LOCALPART_IN_SUBJECT": {
+    "areaTested": "header",
+    "description": "Local part of To: address appears in Subject",
+    "score": "0.001"
+  },
+  "LONGWORDS": {
+    "areaTested": "meta",
+    "description": "Long string of long words",
+    "score": "2.199"
+  },
+  "LONG_HEX_URI": {
+    "areaTested": "meta",
+    "description": "Very long purely hexadecimal URI",
+    "score": "2.601"
+  },
+  "LONG_IMG_URI": {
+    "areaTested": "meta",
+    "description": "Image URI with very long path component - web bug?",
+    "score": "1.335"
+  },
+  "LONG_TERM_PRICE": {
+    "areaTested": "body",
+    "description": "No description provided",
+    "score": "0.001"
+  },
+  "LOTS_OF_MONEY": {
+    "areaTested": "meta",
+    "description": "Huge... sums of money",
+    "score": "0.001"
+  },
+  "LOTTERY_1": {
+    "areaTested": "meta",
+    "description": "No description provided",
+    "score": "0.001"
+  },
+  "LOTTERY_PH_004470": {
+    "areaTested": "meta",
+    "description": "No description provided",
+    "score": "0.100"
+  },
+  "LOTTO_AGENT": {
+    "areaTested": "meta",
+    "description": "Claims Agent",
+    "score": "1.000"
+  },
+  "LOW_PRICE": {
+    "areaTested": "body",
+    "description": "Lowest Price",
+    "score": "0.100"
+  },
+  "LUCRATIVE": {
+    "areaTested": "meta",
+    "description": "Make lots of money!",
+    "score": "0.999"
+  },
+  "L_SPAM_TOOL_13": {
+    "areaTested": "header",
+    "description": "No description provided",
+    "score": "0.539"
+  },
+  "MAILING_LIST_MULTI": {
+    "areaTested": "meta",
+    "description": "Multiple indicators imply a widely-seen list manager",
+    "score": "1.000"
+  },
+  "MALE_ENHANCE": {
+    "areaTested": "body",
+    "description": "Message talks about enhancing men",
+    "score": "3.100"
+  },
+  "MALFORMED_FREEMAIL": {
+    "areaTested": "meta",
+    "description": "Bad headers on message from free email service",
+    "score": "0.605"
+  },
+  "MALF_HTML_B64": {
+    "areaTested": "meta",
+    "description": "Malformatted base64-encoded HTML content",
+    "score": "0.880"
+  },
+  "MANY_SPAN_IN_TEXT": {
+    "areaTested": "meta",
+    "description": "Many &lt;SPAN&gt; tags embedded within text",
+    "score": "2.499"
+  },
+  "MARKETING_PARTNERS": {
+    "areaTested": "body",
+    "description": "Claims you registered with a partner",
+    "score": "0.553"
+  },
+  "MICROSOFT_EXECUTABLE": {
+    "areaTested": "body",
+    "description": "Message includes Microsoft executable program",
+    "score": "0.100"
+  },
+  "MILLION_HUNDRED": {
+    "areaTested": "body",
+    "description": "Million \"One to Nine\" Hundred",
+    "score": "0.992"
+  },
+  "MILLION_USD": {
+    "areaTested": "body",
+    "description": "Talks about millions of dollars",
+    "score": "0.322"
+  },
+  "MIMEOLE_DIRECT_TO_MX": {
+    "areaTested": "meta",
+    "description": "MIMEOLE + direct-to-MX",
+    "score": "1.999"
+  },
+  "MIME_BASE64_TEXT": {
+    "areaTested": "rawbody",
+    "description": "Message text disguised using base64 encoding",
+    "score": "0.001"
+  },
+  "MIME_BOUND_DD_DIGITS": {
+    "areaTested": "header",
+    "description": "Spam tool pattern in MIME boundary",
+    "score": "3.016"
+  },
+  "MIME_BOUND_DIGITS_15": {
+    "areaTested": "header",
+    "description": "Spam tool pattern in MIME boundary",
+    "score": "0.100"
+  },
+  "MIME_CHARSET_FARAWAY": {
+    "areaTested": "meta",
+    "description": "MIME character set indicates foreign language",
+    "score": "2.450"
+  },
+  "MIME_HEADER_CTYPE_ONLY": {
+    "areaTested": "meta",
+    "description": "'Content-Type' found without required MIME headers",
+    "score": "0.100"
+  },
+  "MIME_HTML_MOSTLY": {
+    "areaTested": "body",
+    "description": "Multipart message mostly text/html MIME",
+    "score": "0.100"
+  },
+  "MIME_HTML_ONLY": {
+    "areaTested": "body",
+    "description": "Message only has text/html MIME parts",
+    "score": "0.100"
+  },
+  "MIME_HTML_ONLY_MULTI": {
+    "areaTested": "meta",
+    "description": "Multipart message only has text/html MIME parts",
+    "score": "0.000"
+  },
+  "MIME_NO_TEXT": {
+    "areaTested": "meta",
+    "description": "No (properly identified) text body parts",
+    "score": "2.000"
+  },
+  "MIME_PHP_NO_TEXT": {
+    "areaTested": "meta",
+    "description": "No text body parts, X-Mailer: PHP",
+    "score": "2.800"
+  },
+  "MIME_QP_LONG_LINE": {
+    "areaTested": "rawbody",
+    "description": "Quoted-printable line longer than 76 chars",
+    "score": "0.001"
+  },
+  "MIME_SUSPECT_NAME": {
+    "areaTested": "body",
+    "description": "MIME filename does not match content",
+    "score": "0.100"
+  },
+  "MISSING_DATE": {
+    "areaTested": "meta",
+    "description": "Missing Date: header",
+    "score": "2.739"
+  },
+  "MISSING_FROM": {
+    "areaTested": "meta",
+    "description": "Missing From: header",
+    "score": "1.000"
+  },
+  "MISSING_HEADERS": {
+    "areaTested": "header",
+    "description": "Missing To: header",
+    "score": "0.915"
+  },
+  "MISSING_MID": {
+    "areaTested": "meta",
+    "description": "Missing Message-Id: header",
+    "score": "0.552"
+  },
+  "MISSING_MIMEOLE": {
+    "areaTested": "meta",
+    "description": "Message has X-MSMail-Priority, but no X-MimeOLE",
+    "score": "0.392"
+  },
+  "MISSING_MIME_HB_SEP": {
+    "areaTested": "body",
+    "description": "Missing blank line between MIME header and body",
+    "score": "0.001"
+  },
+  "MISSING_SUBJECT": {
+    "areaTested": "meta",
+    "description": "Missing Subject: header",
+    "score": "0.001"
+  },
+  "MIXED_ES": {
+    "areaTested": "meta",
+    "description": "Too many es are not es",
+    "score": "2.699"
+  },
+  "MONEY_ATM_CARD": {
+    "areaTested": "meta",
+    "description": "Lots of money on an ATM card",
+    "score": "2.246"
+  },
+  "MONEY_BACK": {
+    "areaTested": "body",
+    "description": "Money back guarantee",
+    "score": "2.910"
+  },
+  "MONEY_FORM": {
+    "areaTested": "meta",
+    "description": "Lots of money if you fill out a form",
+    "score": "0.001"
+  },
+  "MONEY_FORM_SHORT": {
+    "areaTested": "meta",
+    "description": "Lots of money if you fill out a short form",
+    "score": "2.499"
+  },
+  "MONEY_FRAUD_3": {
+    "areaTested": "meta",
+    "description": "Lots of money and several fraud phrases",
+    "score": "2.699"
+  },
+  "MONEY_FRAUD_5": {
+    "areaTested": "meta",
+    "description": "Lots of money and many fraud phrases",
+    "score": "2.063"
+  },
+  "MONEY_FRAUD_8": {
+    "areaTested": "meta",
+    "description": "Lots of money and very many fraud phrases",
+    "score": "3.299"
+  },
+  "MONEY_FROM_41": {
+    "areaTested": "meta",
+    "description": "Lots of money from Africa",
+    "score": "1.999"
+  },
+  "MONEY_FROM_MISSP": {
+    "areaTested": "meta",
+    "description": "Lots of money and misspaced From",
+    "score": "1.541"
+  },
+  "MORE_SEX": {
+    "areaTested": "body",
+    "description": "Talks about a bigger drive for sex",
+    "score": "2.799"
+  },
+  "MPART_ALT_DIFF": {
+    "areaTested": "body",
+    "description": "HTML and text parts are different",
+    "score": "2.246"
+  },
+  "MPART_ALT_DIFF_COUNT": {
+    "areaTested": "body",
+    "description": "HTML and text parts are different",
+    "score": "2.799"
+  },
+  "MSGID_FROM_MTA_HEADER": {
+    "areaTested": "meta",
+    "description": "Message-Id was added by a relay",
+    "score": "0.401"
+  },
+  "MSGID_MULTIPLE_AT": {
+    "areaTested": "header",
+    "description": "Message-ID contains multiple '@' characters",
+    "score": "1.000"
+  },
+  "MSGID_OUTLOOK_INVALID": {
+    "areaTested": "header",
+    "description": "Message-Id is fake (in Outlook Express format)",
+    "score": "3.899"
+  },
+  "MSGID_RANDY": {
+    "areaTested": "meta",
+    "description": "Message-Id has pattern used in spam",
+    "score": "2.196"
+  },
+  "MSGID_SHORT": {
+    "areaTested": "header",
+    "description": "Message-ID is unusually short",
+    "score": "0.001"
+  },
+  "MSGID_SPAM_CAPS": {
+    "areaTested": "header",
+    "description": "Spam tool Message-Id: (caps variant)",
+    "score": "2.366"
+  },
+  "MSGID_YAHOO_CAPS": {
+    "areaTested": "header",
+    "description": "Message-ID has ALLCAPS@yahoo.com",
+    "score": "0.797"
+  },
+  "MSM_PRIO_REPTO": {
+    "areaTested": "meta",
+    "description": "MSMail priority header + Reply-to + short subject",
+    "score": "0.001"
+  },
+  "MSOE_MID_WRONG_CASE": {
+    "areaTested": "meta",
+    "description": "No description provided",
+    "score": "0.993"
+  },
+  "NML_ADSP_CUSTOM_HIGH": {
+    "areaTested": "meta",
+    "description": "ADSP custom_high hit, and not from a mailing list",
+    "score": "0.000"
+  },
+  "NML_ADSP_CUSTOM_LOW": {
+    "areaTested": "meta",
+    "description": "ADSP custom_low hit, and not from a mailing list",
+    "score": "0.000"
+  },
+  "NML_ADSP_CUSTOM_MED": {
+    "areaTested": "meta",
+    "description": "ADSP custom_med hit, and not from a mailing list",
+    "score": "0.000"
+  },
+  "NORDNS_LOW_CONTRAST": {
+    "areaTested": "meta",
+    "description": "No rDNS + hidden text",
+    "score": "1.788"
+  },
+  "NORMAL_HTTP_TO_IP": {
+    "areaTested": "uri",
+    "description": "URI host has a public dotted-decimal IPv4 address",
+    "score": "0.159"
+  },
+  "NO_DNS_FOR_FROM": {
+    "areaTested": "header",
+    "description": "Envelope sender has no MX or A DNS records",
+    "score": "0.000"
+  },
+  "NO_FM_NAME_IP_HOSTN": {
+    "areaTested": "meta",
+    "description": "No From name + hostname using IP address",
+    "score": "2.350"
+  },
+  "NO_HEADERS_MESSAGE": {
+    "areaTested": "meta",
+    "description": "Message appears to be missing most RFC-822 headers",
+    "score": "0.001"
+  },
+  "NO_MEDICAL": {
+    "areaTested": "body",
+    "description": "No Medical Exams",
+    "score": "2.199"
+  },
+  "NO_PRESCRIPTION": {
+    "areaTested": "body",
+    "description": "No prescription needed",
+    "score": "1.915"
+  },
+  "NO_RDNS_DOTCOM_HELO": {
+    "areaTested": "header",
+    "description": "Host HELO'd as a big ISP, but had no rDNS",
+    "score": "3.100"
+  },
+  "NO_RECEIVED": {
+    "areaTested": "meta",
+    "description": "Informational: message has no Received headers",
+    "score": "-0.001"
+  },
+  "NO_RELAYS": {
+    "areaTested": "header",
+    "description": "Informational: message was not relayed via SMTP",
+    "score": "-0.001"
+  },
+  "NSL_RCVD_FROM_USER": {
+    "areaTested": "header",
+    "description": "Received from User",
+    "score": "0.001"
+  },
+  "NSL_RCVD_HELO_USER": {
+    "areaTested": "header",
+    "description": "Received from HELO User",
+    "score": "2.597"
+  },
+  "NULL_IN_BODY": {
+    "areaTested": "full",
+    "description": "Message has NUL (ASCII 0) byte in message",
+    "score": "0.511"
+  },
+  "NUMBERONLY_BITCOIN_EXP": {
+    "areaTested": "meta",
+    "description": "Domain ends in a large number and very short body with link",
+    "score": "0.001"
+  },
+  "NUMERIC_HTTP_ADDR": {
+    "areaTested": "uri",
+    "description": "Uses a numeric IP address in URL",
+    "score": "0.000"
+  },
+  "OBFUSCATING_COMMENT": {
+    "areaTested": "meta",
+    "description": "HTML comments which obfuscate text",
+    "score": "0.000"
+  },
+  "OBFU_BITCOIN": {
+    "areaTested": "meta",
+    "description": "Obfuscated BitCoin references",
+    "score": "0.613"
+  },
+  "OBFU_JVSCR_ESC": {
+    "areaTested": "rawbody",
+    "description": "Injects content using obfuscated javascript",
+    "score": "1.000"
+  },
+  "OBFU_TEXT_ATTACH": {
+    "areaTested": "mimeheader",
+    "description": "Text attachment with non-text MIME type",
+    "score": "1.000"
+  },
+  "OFFER_ONLY_AMERICA": {
+    "areaTested": "meta",
+    "description": "Offer only available to US",
+    "score": "1.999"
+  },
+  "ONE_TIME": {
+    "areaTested": "body",
+    "description": "One Time Rip Off",
+    "score": "1.840"
+  },
+  "ONLINE_PHARMACY": {
+    "areaTested": "body",
+    "description": "Online Pharmacy",
+    "score": "0.843"
+  },
+  "PART_CID_STOCK": {
+    "areaTested": "meta",
+    "description": "Has a spammy image attachment (by Content-ID)",
+    "score": "0.001"
+  },
+  "PART_CID_STOCK_LESS": {
+    "areaTested": "meta",
+    "description": "Has a spammy image attachment (by Content-ID, more specific)",
+    "score": "0.000"
+  },
+  "PDS_DBL_URL_LINKBAIT": {
+    "areaTested": "meta",
+    "description": "Linkbait double-url",
+    "score": "2.499"
+  },
+  "PDS_DBL_URL_TNB_RUNON": {
+    "areaTested": "meta",
+    "description": "Double-url and To no arrows, from runon",
+    "score": "2.000"
+  },
+  "PDS_HIDDEN_UK_BUSINESSLOAN": {
+    "areaTested": "meta",
+    "description": "UK's &lt;word&gt; rates for business loans",
+    "score": "1.417"
+  },
+  "PDS_HP_HELO_NORDNS": {
+    "areaTested": "meta",
+    "description": "High profile HELO with no sender rDNS",
+    "score": "0.001"
+  },
+  "PDS_NO_HELO_DNS": {
+    "areaTested": "meta",
+    "description": "High profile HELO but no A record",
+    "score": "0.001"
+  },
+  "PDS_PHP_EVAL": {
+    "areaTested": "meta",
+    "description": "PHP header shows eval'd code",
+    "score": "1.499"
+  },
+  "PDS_PHP_RUNTIME_FUNC": {
+    "areaTested": "meta",
+    "description": "PHP header shows runtime-created function",
+    "score": "1.000"
+  },
+  "PDS_TO_EQ_FROM_NAME": {
+    "areaTested": "meta",
+    "description": "From: name same as To: address",
+    "score": "0.455"
+  },
+  "PDS_URI_HIDDEN_HELO_NO_DOMAIN": {
+    "areaTested": "meta",
+    "description": "Hidden URI, HELO not domain",
+    "score": "0.862"
+  },
+  "PDS_X_PHP_WP_EXP": {
+    "areaTested": "meta",
+    "description": "X-PHP-Script shows sent from a Wordpress PHP script where you would not expect one",
+    "score": "1.499"
+  },
+  "PERCENT_RANDOM": {
+    "areaTested": "meta",
+    "description": "Message has a random macro in it",
+    "score": "2.999"
+  },
+  "PHOTO_EDITING_DIRECT": {
+    "areaTested": "meta",
+    "description": "Image editing service, direct to MX",
+    "score": "2.999"
+  },
+  "PHOTO_EDITING_FREEM": {
+    "areaTested": "meta",
+    "description": "Image editing service, freemail or CHN replyto",
+    "score": "1.000"
+  },
+  "PHP_NOVER_MUA": {
+    "areaTested": "meta",
+    "description": "Mail from PHP with no version number",
+    "score": "1.000"
+  },
+  "PHP_ORIG_SCRIPT": {
+    "areaTested": "meta",
+    "description": "Sent by bot &amp; other signs",
+    "score": "2.499"
+  },
+  "PHP_SCRIPT_MUA": {
+    "areaTested": "meta",
+    "description": "Sent by PHP script, no version number",
+    "score": "1.000"
+  },
+  "PLING_QUERY": {
+    "areaTested": "meta",
+    "description": "Subject has exclamation mark and question mark",
+    "score": "0.100"
+  },
+  "PP_MIME_FAKE_ASCII_TEXT": {
+    "areaTested": "body",
+    "description": "MIME text/plain claims to be ASCII but isn't",
+    "score": "0.999"
+  },
+  "PP_TOO_MUCH_UNICODE02": {
+    "areaTested": "body",
+    "description": "Is text/plain but has many unicode escapes",
+    "score": "0.500"
+  },
+  "PP_TOO_MUCH_UNICODE05": {
+    "areaTested": "body",
+    "description": "Is text/plain but has many unicode escapes",
+    "score": "1.000"
+  },
+  "PRICES_ARE_AFFORDABLE": {
+    "areaTested": "body",
+    "description": "Message says that prices aren't too expensive",
+    "score": "0.794"
+  },
+  "PUMPDUMP": {
+    "areaTested": "meta",
+    "description": "Pump-and-dump stock scam phrase",
+    "score": "1.000"
+  },
+  "PUMPDUMP_MULTI": {
+    "areaTested": "meta",
+    "description": "Pump-and-dump stock scam phrases",
+    "score": "1.000"
+  },
+  "PUMPDUMP_TIP": {
+    "areaTested": "meta",
+    "description": "Pump-and-dump stock tip",
+    "score": "1.000"
+  },
+  "PYZOR_CHECK": {
+    "areaTested": "full",
+    "description": "Listed in Pyzor (https://pyzor.readthedocs.io/en/latest/)",
+    "score": "0.000"
+  },
+  "RAND_HEADER_MANY": {
+    "areaTested": "meta",
+    "description": "Many random gibberish message headers",
+    "score": "1.000"
+  },
+  "RATWARE_EFROM": {
+    "areaTested": "header",
+    "description": "Bulk email fingerprint (envfrom) found",
+    "score": "0.100"
+  },
+  "RATWARE_EGROUPS": {
+    "areaTested": "header",
+    "description": "Bulk email fingerprint (eGroups) found",
+    "score": "1.898"
+  },
+  "RATWARE_MPOP_WEBMAIL": {
+    "areaTested": "header",
+    "description": "Bulk email fingerprint (mPOP Web-Mail)",
+    "score": "1.153"
+  },
+  "RATWARE_MS_HASH": {
+    "areaTested": "meta",
+    "description": "Bulk email fingerprint (msgid ms hash) found",
+    "score": "2.036"
+  },
+  "RATWARE_NAME_ID": {
+    "areaTested": "meta",
+    "description": "Bulk email fingerprint (msgid from) found",
+    "score": "3.099"
+  },
+  "RATWARE_NO_RDNS": {
+    "areaTested": "meta",
+    "description": "Suspicious MsgID and MIME boundary + no rDNS",
+    "score": "2.939"
+  },
+  "RATWARE_OUTLOOK_NONAME": {
+    "areaTested": "meta",
+    "description": "Bulk email fingerprint (Outlook no name) found",
+    "score": "2.964"
+  },
+  "RATWARE_ZERO_TZ": {
+    "areaTested": "meta",
+    "description": "Bulk email fingerprint (+0000) found",
+    "score": "2.392"
+  },
+  "RAZOR2_CF_RANGE_51_100": {
+    "areaTested": "full",
+    "description": "Razor2 gives confidence level above 50%",
+    "score": "0.000"
+  },
+  "RAZOR2_CHECK": {
+    "areaTested": "full",
+    "description": "Listed in Razor2 (http://razor.sf.net/)",
+    "score": "0.000"
+  },
+  "RCVD_DBL_DQ": {
+    "areaTested": "header",
+    "description": "Malformatted message header",
+    "score": "1.000"
+  },
+  "RCVD_DOUBLE_IP_LOOSE": {
+    "areaTested": "meta",
+    "description": "Received: by and from look like IP addresses",
+    "score": "1.150"
+  },
+  "RCVD_DOUBLE_IP_SPAM": {
+    "areaTested": "meta",
+    "description": "Bulk email fingerprint (double IP) found",
+    "score": "2.411"
+  },
+  "RCVD_FAKE_HELO_DOTCOM": {
+    "areaTested": "header",
+    "description": "Received contains a faked HELO hostname",
+    "score": "2.799"
+  },
+  "RCVD_HELO_IP_MISMATCH": {
+    "areaTested": "header",
+    "description": "Received: HELO and IP do not match, but should",
+    "score": "1.680"
+  },
+  "RCVD_ILLEGAL_IP": {
+    "areaTested": "header",
+    "description": "Received: contains illegal IP address",
+    "score": "1.300"
+  },
+  "RCVD_IN_BL_SPAMCOP_NET": {
+    "areaTested": "header",
+    "description": "Received via a relay in bl.spamcop.net",
+    "score": "0.000"
+  },
+  "RCVD_IN_DNSWL_BLOCKED": {
+    "areaTested": "header",
+    "description": "ADMINISTRATOR\n NOTICE: The query to DNSWL was blocked.  See \nhttp://wiki.apache.org/spamassassin/DnsBlocklists\\#dnsbl-block for more \ninformation.",
+    "score": "0.000"
+  },
+  "RCVD_IN_DNSWL_HI": {
+    "areaTested": "header",
+    "description": "Sender listed at https://www.dnswl.org/, high trust",
+    "score": "0.000"
+  },
+  "RCVD_IN_DNSWL_LOW": {
+    "areaTested": "header",
+    "description": "Sender listed at https://www.dnswl.org/, low trust",
+    "score": "0.000"
+  },
+  "RCVD_IN_DNSWL_MED": {
+    "areaTested": "header",
+    "description": "Sender listed at https://www.dnswl.org/, medium trust",
+    "score": "0.000"
+  },
+  "RCVD_IN_DNSWL_NONE": {
+    "areaTested": "header",
+    "description": "Sender listed at https://www.dnswl.org/, no trust",
+    "score": "0.000"
+  },
+  "RCVD_IN_IADB_DK": {
+    "areaTested": "header",
+    "description": "IADB: Sender publishes Domain Keys record",
+    "score": "0.000"
+  },
+  "RCVD_IN_IADB_DOPTIN": {
+    "areaTested": "header",
+    "description": "IADB: All mailing list mail is confirmed opt-in",
+    "score": "0.000"
+  },
+  "RCVD_IN_IADB_DOPTIN_LT50": {
+    "areaTested": "header",
+    "description": "IADB: Confirmed opt-in used less than 50% of the time",
+    "score": "0.000"
+  },
+  "RCVD_IN_IADB_LISTED": {
+    "areaTested": "header",
+    "description": "Participates in the IADB system",
+    "score": "0.000"
+  },
+  "RCVD_IN_IADB_MI_CPR_MAT": {
+    "areaTested": "header",
+    "description": "IADB: Sends no material under Michigan's CPR",
+    "score": "0.000"
+  },
+  "RCVD_IN_IADB_ML_DOPTIN": {
+    "areaTested": "header",
+    "description": "IADB: Mailing list email only, confirmed opt-in",
+    "score": "0.000"
+  },
+  "RCVD_IN_IADB_OPTIN": {
+    "areaTested": "header",
+    "description": "IADB: All mailing list mail is opt-in",
+    "score": "0.000"
+  },
+  "RCVD_IN_IADB_OPTIN_GT50": {
+    "areaTested": "header",
+    "description": "IADB: Opt-in used more than 50% of the time",
+    "score": "0.000"
+  },
+  "RCVD_IN_IADB_RDNS": {
+    "areaTested": "header",
+    "description": "IADB: Sender has reverse DNS record",
+    "score": "0.000"
+  },
+  "RCVD_IN_IADB_SENDERID": {
+    "areaTested": "header",
+    "description": "IADB: Sender publishes Sender ID record",
+    "score": "0.000"
+  },
+  "RCVD_IN_IADB_SPF": {
+    "areaTested": "header",
+    "description": "IADB: Sender publishes SPF record",
+    "score": "0.000"
+  },
+  "RCVD_IN_IADB_UT_CPR_MAT": {
+    "areaTested": "header",
+    "description": "IADB: Sends no material under Utah's CPR",
+    "score": "0.000"
+  },
+  "RCVD_IN_IADB_VOUCHED": {
+    "areaTested": "header",
+    "description": "ISIPP IADB lists as vouched-for sender",
+    "score": "0.000"
+  },
+  "RCVD_IN_MSPIKE_BL": {
+    "areaTested": "meta",
+    "description": "Mailspike blacklisted",
+    "score": "0.001"
+  },
+  "RCVD_IN_MSPIKE_H2": {
+    "areaTested": "header",
+    "description": "Average reputation (+2)",
+    "score": "0.001"
+  },
+  "RCVD_IN_MSPIKE_H3": {
+    "areaTested": "header",
+    "description": "Good reputation (+3)",
+    "score": "0.001"
+  },
+  "RCVD_IN_MSPIKE_H4": {
+    "areaTested": "header",
+    "description": "Very Good reputation (+4)",
+    "score": "0.001"
+  },
+  "RCVD_IN_MSPIKE_H5": {
+    "areaTested": "header",
+    "description": "Excellent reputation (+5)",
+    "score": "0.001"
+  },
+  "RCVD_IN_MSPIKE_L2": {
+    "areaTested": "header",
+    "description": "Suspicious reputation (-2)",
+    "score": "0.001"
+  },
+  "RCVD_IN_MSPIKE_L3": {
+    "areaTested": "header",
+    "description": "Low reputation (-3)",
+    "score": "0.001"
+  },
+  "RCVD_IN_MSPIKE_L4": {
+    "areaTested": "header",
+    "description": "Bad reputation (-4)",
+    "score": "0.001"
+  },
+  "RCVD_IN_MSPIKE_L5": {
+    "areaTested": "header",
+    "description": "Very bad reputation (-5)",
+    "score": "0.001"
+  },
+  "RCVD_IN_MSPIKE_WL": {
+    "areaTested": "meta",
+    "description": "Mailspike good senders",
+    "score": "0.001"
+  },
+  "RCVD_IN_MSPIKE_ZBI": {
+    "areaTested": "meta",
+    "description": "No description provided",
+    "score": "0.001"
+  },
+  "RCVD_IN_PBL": {
+    "areaTested": "header",
+    "description": "Received via a relay in Spamhaus PBL",
+    "score": "0.000"
+  },
+  "RCVD_IN_PSBL": {
+    "areaTested": "header",
+    "description": "Received via a relay in PSBL",
+    "score": "0.000"
+  },
+  "RCVD_IN_RP_CERTIFIED": {
+    "areaTested": "header",
+    "description": "Sender in ReturnPath Certified - Contact cert-sa@returnpath.net",
+    "score": "0.000"
+  },
+  "RCVD_IN_RP_RNBL": {
+    "areaTested": "header",
+    "description": "Relay in RNBL, https://senderscore.org/blacklistlookup/",
+    "score": "0.000"
+  },
+  "RCVD_IN_RP_SAFE": {
+    "areaTested": "header",
+    "description": "Sender in ReturnPath Safe - Contact safe-sa@returnpath.net",
+    "score": "0.000"
+  },
+  "RCVD_IN_SBL": {
+    "areaTested": "header",
+    "description": "Received via a relay in Spamhaus SBL",
+    "score": "0.000"
+  },
+  "RCVD_IN_SBL_CSS": {
+    "areaTested": "header",
+    "description": "Received via a relay in Spamhaus SBL-CSS",
+    "score": "0.000"
+  },
+  "RCVD_IN_SORBS_DUL": {
+    "areaTested": "header",
+    "description": "SORBS: sent directly from dynamic IP address",
+    "score": "0.000"
+  },
+  "RCVD_IN_SORBS_HTTP": {
+    "areaTested": "header",
+    "description": "SORBS: sender is open HTTP proxy server",
+    "score": "0.000"
+  },
+  "RCVD_IN_SORBS_SOCKS": {
+    "areaTested": "header",
+    "description": "SORBS: sender is open SOCKS proxy server",
+    "score": "0.000"
+  },
+  "RCVD_IN_SORBS_WEB": {
+    "areaTested": "header",
+    "description": "SORBS: sender is an abusable web server",
+    "score": "0.000"
+  },
+  "RCVD_IN_XBL": {
+    "areaTested": "header",
+    "description": "Received via a relay in Spamhaus XBL",
+    "score": "0.000"
+  },
+  "RCVD_NUMERIC_HELO": {
+    "areaTested": "???",
+    "description": "No description provided",
+    "score": "0.001"
+  },
+  "RDNS_DYNAMIC": {
+    "areaTested": "meta",
+    "description": "Delivered to internal network by host with dynamic-looking rDNS",
+    "score": "2.639"
+  },
+  "RDNS_LOCALHOST": {
+    "areaTested": "header",
+    "description": "Sender's public rDNS is \"localhost\"",
+    "score": "3.700"
+  },
+  "RDNS_NONE": {
+    "areaTested": "meta",
+    "description": "Delivered to internal network by a host with no rDNS",
+    "score": "2.399"
+  },
+  "RDNS_NUM_TLD_ATCHNX": {
+    "areaTested": "meta",
+    "description": "Relay rDNS has numeric TLD + suspicious attachment",
+    "score": "2.007"
+  },
+  "RDNS_NUM_TLD_XM": {
+    "areaTested": "meta",
+    "description": "Relay rDNS has numeric TLD + suspicious headers",
+    "score": "3.000"
+  },
+  "REMOVE_BEFORE_LINK": {
+    "areaTested": "body",
+    "description": "Removal phrase right before a link",
+    "score": "0.100"
+  },
+  "REPLICA_WATCH": {
+    "areaTested": "body",
+    "description": "Message talks about a replica watch",
+    "score": "3.487"
+  },
+  "REPLYTO_WITHOUT_TO_CC": {
+    "areaTested": "meta",
+    "description": "No description provided",
+    "score": "2.399"
+  },
+  "REPTO_QUOTE_YAHOO": {
+    "areaTested": "meta",
+    "description": "Yahoo! doesn't do quoting like this",
+    "score": "0.001"
+  },
+  "RISK_FREE": {
+    "areaTested": "meta",
+    "description": "No risk!",
+    "score": "2.599"
+  },
+  "RP_MATCHES_RCVD": {
+    "areaTested": "???",
+    "description": "No description provided",
+    "score": "-0.001"
+  },
+  "SB_GIF_AND_NO_URIS": {
+    "areaTested": "meta",
+    "description": "No description provided",
+    "score": "2.199"
+  },
+  "SEO_SUSP_NTLD": {
+    "areaTested": "meta",
+    "description": "SEO offer from suspicious TLD",
+    "score": "1.199"
+  },
+  "SERGIO_SUBJECT_PORN011": {
+    "areaTested": "header",
+    "description": "Sex garbled subject",
+    "score": "1.000"
+  },
+  "SERGIO_SUBJECT_PORN014": {
+    "areaTested": "header",
+    "description": "F\\*\\*\\* garbled subject",
+    "score": "2.498"
+  },
+  "SERGIO_SUBJECT_VIAGRA01": {
+    "areaTested": "header",
+    "description": "Viagra garbled subject",
+    "score": "0.001"
+  },
+  "SHORTENER_SHORT_IMG": {
+    "areaTested": "meta",
+    "description": "Short HTML + image + URL shortener",
+    "score": "1.153"
+  },
+  "SHORT_BODY_G_DRIVE_DYN": {
+    "areaTested": "meta",
+    "description": "Short body with Google Drive link and dynamic looking sender",
+    "score": "0.923"
+  },
+  "SHORT_HELO_AND_INLINE_IMAGE": {
+    "areaTested": "meta",
+    "description": "Short HELO string, with inline image",
+    "score": "0.100"
+  },
+  "SHORT_IMG_SUSP_NTLD": {
+    "areaTested": "meta",
+    "description": "Short HTML + image + suspicious TLD",
+    "score": "1.499"
+  },
+  "SHORT_TERM_PRICE": {
+    "areaTested": "body",
+    "description": "No description provided",
+    "score": "0.001"
+  },
+  "SINGLETS_LOW_CONTRAST": {
+    "areaTested": "meta",
+    "description": "Single-letter formatted HTML + hidden text",
+    "score": "0.001"
+  },
+  "SORTED_RECIPS": {
+    "areaTested": "header",
+    "description": "Recipient list is sorted by address",
+    "score": "1.801"
+  },
+  "SPAMMY_XMAILER": {
+    "areaTested": "meta",
+    "description": "X-Mailer string is common in spam and not in ham",
+    "score": "2.650"
+  },
+  "SPF_FAIL": {
+    "areaTested": "header",
+    "description": "SPF: sender does not match SPF record (fail)",
+    "score": "0.000"
+  },
+  "SPF_HELO_FAIL": {
+    "areaTested": "header",
+    "description": "SPF: HELO does not match SPF record (fail)",
+    "score": "0.000"
+  },
+  "SPF_HELO_NEUTRAL": {
+    "areaTested": "header",
+    "description": "SPF: HELO does not match SPF record (neutral)",
+    "score": "0.000"
+  },
+  "SPF_HELO_NONE": {
+    "areaTested": "header",
+    "description": "SPF: HELO does not publish an SPF Record",
+    "score": "0.001"
+  },
+  "SPF_HELO_PASS": {
+    "areaTested": "header",
+    "description": "SPF: HELO matches SPF record",
+    "score": "-0.001"
+  },
+  "SPF_HELO_SOFTFAIL": {
+    "areaTested": "header",
+    "description": "SPF: HELO does not match SPF record (softfail)",
+    "score": "0.000"
+  },
+  "SPF_NEUTRAL": {
+    "areaTested": "header",
+    "description": "SPF: sender does not match SPF record (neutral)",
+    "score": "0.000"
+  },
+  "SPF_NONE": {
+    "areaTested": "header",
+    "description": "SPF: sender does not publish an SPF Record",
+    "score": "0.001"
+  },
+  "SPF_PASS": {
+    "areaTested": "header",
+    "description": "SPF: sender matches SPF record",
+    "score": "-0.001"
+  },
+  "SPF_SOFTFAIL": {
+    "areaTested": "header",
+    "description": "SPF: sender does not match SPF record (softfail)",
+    "score": "0.000"
+  },
+  "SPOOFED_FREEMAIL_NO_RDNS": {
+    "areaTested": "meta",
+    "description": "From T_SPOOFED_FREEMAIL and no rDNS",
+    "score": "1.500"
+  },
+  "SPOOFED_FREEM_REPTO": {
+    "areaTested": "meta",
+    "description": "Forged freemail sender with freemail reply-to",
+    "score": "2.499"
+  },
+  "SPOOFED_FREEM_REPTO_CHN": {
+    "areaTested": "meta",
+    "description": "Forged freemail sender with Chinese freemail reply-to",
+    "score": "1.000"
+  },
+  "SPOOFED_FREEM_REPTO_RUS": {
+    "areaTested": "meta",
+    "description": "Forged freemail sender with Russian freemail reply-to",
+    "score": "1.000"
+  },
+  "SPOOF_COM2COM": {
+    "areaTested": "uri",
+    "description": "URI contains \".com\" in middle and end",
+    "score": "0.001"
+  },
+  "SPOOF_COM2OTH": {
+    "areaTested": "uri",
+    "description": "URI contains \".com\" in middle",
+    "score": "0.001"
+  },
+  "STATIC_XPRIO_OLE": {
+    "areaTested": "meta",
+    "description": "Static RDNS + X-Priority + MIMEOLE",
+    "score": "1.999"
+  },
+  "STOCK_IMG_CTYPE": {
+    "areaTested": "meta",
+    "description": "Stock spam image part, with distinctive Content-Type header",
+    "score": "0.001"
+  },
+  "STOCK_IMG_HDR_FROM": {
+    "areaTested": "meta",
+    "description": "Stock spam image part, with distinctive From line",
+    "score": "0.001"
+  },
+  "STOCK_IMG_HTML": {
+    "areaTested": "meta",
+    "description": "Stock spam image part, with distinctive HTML",
+    "score": "0.000"
+  },
+  "STOCK_IMG_OUTLOOK": {
+    "areaTested": "meta",
+    "description": "Stock spam image part, with Outlook-like features",
+    "score": "0.001"
+  },
+  "STOCK_LOW_CONTRAST": {
+    "areaTested": "meta",
+    "description": "Stocks + hidden text",
+    "score": "1.484"
+  },
+  "STOCK_TIP": {
+    "areaTested": "meta",
+    "description": "Stock tips",
+    "score": "1.000"
+  },
+  "STOX_REPLY_TYPE": {
+    "areaTested": "header",
+    "description": "No description provided",
+    "score": "1.898"
+  },
+  "STOX_REPLY_TYPE_WITHOUT_QUOTES": {
+    "areaTested": "meta",
+    "description": "No description provided",
+    "score": "3.099"
+  },
+  "STYLE_GIBBERISH": {
+    "areaTested": "???",
+    "description": "No description provided",
+    "score": "0.100"
+  },
+  "SUBJECT_DIET": {
+    "areaTested": "header",
+    "description": "Subject talks about losing pounds",
+    "score": "1.927"
+  },
+  "SUBJECT_DRUG_GAP_C": {
+    "areaTested": "header",
+    "description": "Subject contains a gappy version of 'cialis'",
+    "score": "2.108"
+  },
+  "SUBJECT_DRUG_GAP_L": {
+    "areaTested": "header",
+    "description": "Subject contains a gappy version of 'levitra'",
+    "score": "2.799"
+  },
+  "SUBJECT_FUZZY_CHEAP": {
+    "areaTested": "header",
+    "description": "Attempt to obfuscate words in Subject:",
+    "score": "0.641"
+  },
+  "SUBJECT_IN_BLACKLIST": {
+    "areaTested": "header",
+    "description": "Subject: contains string in the user's black-list",
+    "score": "100.000"
+  },
+  "SUBJECT_IN_WHITELIST": {
+    "areaTested": "header",
+    "description": "Subject: contains string in the user's white-list",
+    "score": "-100.000"
+  },
+  "SUBJECT_NEEDS_ENCODING": {
+    "areaTested": "meta",
+    "description": "Subject is encoded but does not specify the encoding",
+    "score": "0.498"
+  },
+  "SUBJ_ALL_CAPS": {
+    "areaTested": "header",
+    "description": "Subject is all capitals",
+    "score": "0.500"
+  },
+  "SUBJ_AS_SEEN": {
+    "areaTested": "header",
+    "description": "Subject contains \"As Seen\"",
+    "score": "2.711"
+  },
+  "SUBJ_BUY": {
+    "areaTested": "header",
+    "description": "Subject line starts with Buy or Buying",
+    "score": "0.594"
+  },
+  "SUBJ_DOLLARS": {
+    "areaTested": "header",
+    "description": "Subject starts with dollar amount",
+    "score": "0.100"
+  },
+  "SUBJ_ILLEGAL_CHARS": {
+    "areaTested": "meta",
+    "description": "Subject: has too many raw illegal characters",
+    "score": "0.620"
+  },
+  "SUBJ_YOUR_FAMILY": {
+    "areaTested": "header",
+    "description": "Subject contains \"Your Family\"",
+    "score": "2.910"
+  },
+  "SURBL_BLOCKED": {
+    "areaTested": "body",
+    "description": "ADMINISTRATOR\n NOTICE: The query to SURBL was blocked.  See \nhttp://wiki.apache.org/spamassassin/DnsBlocklists\\#dnsbl-block for more \ninformation.",
+    "score": "0.001"
+  },
+  "SUSPICIOUS_RECIPS": {
+    "areaTested": "header",
+    "description": "Similar addresses in recipient list",
+    "score": "2.499"
+  },
+  "SYSADMIN": {
+    "areaTested": "meta",
+    "description": "Supposedly from your IT department",
+    "score": "1.000"
+  },
+  "TBIRD_SUSP_MIME_BDRY": {
+    "areaTested": "meta",
+    "description": "Unlikely Thunderbird MIME boundary",
+    "score": "2.400"
+  },
+  "TEQF_USR_IMAGE": {
+    "areaTested": "meta",
+    "description": "To and from user nearly same + image",
+    "score": "1.000"
+  },
+  "TEQF_USR_MSGID_HEX": {
+    "areaTested": "meta",
+    "description": "To and from user nearly same + unusual message ID",
+    "score": "1.000"
+  },
+  "TEQF_USR_MSGID_MALF": {
+    "areaTested": "meta",
+    "description": "To and from user nearly same + malformed message ID",
+    "score": "1.000"
+  },
+  "TEQF_USR_POLITE": {
+    "areaTested": "meta",
+    "description": "To and from user nearly same + polite greeting",
+    "score": "1.802"
+  },
+  "THEBAT_UNREG": {
+    "areaTested": "header",
+    "description": "No description provided",
+    "score": "2.599"
+  },
+  "THIS_AD": {
+    "areaTested": "meta",
+    "description": "\"This ad\" and variants",
+    "score": "1.899"
+  },
+  "THIS_IS_ADV_SUSP_NTLD": {
+    "areaTested": "meta",
+    "description": "This is an advertisement from a suspicious TLD",
+    "score": "1.411"
+  },
+  "TO_EQ_FM_DIRECT_MX": {
+    "areaTested": "meta",
+    "description": "To == From and direct-to-MX",
+    "score": "0.867"
+  },
+  "TO_EQ_FM_DOM_SPF_FAIL": {
+    "areaTested": "meta",
+    "description": "To domain == From domain and external SPF failed",
+    "score": "0.001"
+  },
+  "TO_EQ_FM_SPF_FAIL": {
+    "areaTested": "meta",
+    "description": "To == From and external SPF failed",
+    "score": "0.001"
+  },
+  "TO_IN_SUBJ": {
+    "areaTested": "meta",
+    "description": "To address is in Subject",
+    "score": "0.100"
+  },
+  "TO_MALFORMED": {
+    "areaTested": "header",
+    "description": "To: has a malformed address",
+    "score": "0.100"
+  },
+  "TO_NAME_SUBJ_NO_RDNS": {
+    "areaTested": "meta",
+    "description": "Recipient username in subject + no rDNS",
+    "score": "0.095"
+  },
+  "TO_NO_BRKTS_DYNIP": {
+    "areaTested": "meta",
+    "description": "To: lacks brackets and dynamic rDNS",
+    "score": "2.260"
+  },
+  "TO_NO_BRKTS_FROM_MSSP": {
+    "areaTested": "meta",
+    "description": "Multiple header formatting problems",
+    "score": "2.360"
+  },
+  "TO_NO_BRKTS_HTML_IMG": {
+    "areaTested": "meta",
+    "description": "To: lacks brackets and HTML and one image",
+    "score": "0.640"
+  },
+  "TO_NO_BRKTS_HTML_ONLY": {
+    "areaTested": "meta",
+    "description": "To: lacks brackets and HTML only",
+    "score": "1.999"
+  },
+  "TO_NO_BRKTS_MSFT": {
+    "areaTested": "meta",
+    "description": "To: lacks brackets and supposed Microsoft tool",
+    "score": "2.499"
+  },
+  "TO_NO_BRKTS_NORDNS_HTML": {
+    "areaTested": "meta",
+    "description": "To: lacks brackets and no rDNS and HTML only",
+    "score": "1.999"
+  },
+  "TO_NO_BRKTS_PCNT": {
+    "areaTested": "meta",
+    "description": "To: lacks brackets + percentage",
+    "score": "2.499"
+  },
+  "TRACKER_ID": {
+    "areaTested": "body",
+    "description": "Incorporates a tracking ID number",
+    "score": "0.100"
+  },
+  "TT_MSGID_TRUNC": {
+    "areaTested": "header",
+    "description": "Scora: Message-Id ends after left-bracket + digits",
+    "score": "0.748"
+  },
+  "TVD_APPROVED": {
+    "areaTested": "body",
+    "description": "Body states that the recipient has been approved",
+    "score": "2.356"
+  },
+  "TVD_FINGER_02": {
+    "areaTested": "header",
+    "description": "No description provided",
+    "score": "0.001"
+  },
+  "TVD_FW_GRAPHIC_NAME_LONG": {
+    "areaTested": "mimeheader",
+    "description": "Long image attachment name",
+    "score": "0.001"
+  },
+  "TVD_FW_GRAPHIC_NAME_MID": {
+    "areaTested": "mimeheader",
+    "description": "Medium sized image attachment name",
+    "score": "0.600"
+  },
+  "TVD_INCREASE_SIZE": {
+    "areaTested": "body",
+    "description": "Advertising for penis enlargement",
+    "score": "1.529"
+  },
+  "TVD_IP_SING_HEX": {
+    "areaTested": "uri",
+    "description": "No description provided",
+    "score": "2.437"
+  },
+  "TVD_PH_BODY_ACCOUNTS_PRE": {
+    "areaTested": "meta",
+    "description": "The body matches phrases such as \"accounts suspended\", \"account credited\", \"account verification\"",
+    "score": "0.001"
+  },
+  "TVD_PH_REC": {
+    "areaTested": "body",
+    "description": "Message includes a phrase commonly used in phishing mails",
+    "score": "0.100"
+  },
+  "TVD_PH_SEC": {
+    "areaTested": "body",
+    "description": "Message includes a phrase commonly used in phishing mails",
+    "score": "0.100"
+  },
+  "TVD_QUAL_MEDS": {
+    "areaTested": "body",
+    "description": "The body matches phrases such as \"quality meds\" or \"quality medication\"",
+    "score": "2.697"
+  },
+  "TVD_RCVD_IP": {
+    "areaTested": "header",
+    "description": "Message was received from an IP address",
+    "score": "0.001"
+  },
+  "TVD_RCVD_IP4": {
+    "areaTested": "header",
+    "description": "Message was received from an IPv4 address",
+    "score": "0.001"
+  },
+  "TVD_RCVD_SPACE_BRACKET": {
+    "areaTested": "header",
+    "description": "No description provided",
+    "score": "0.001"
+  },
+  "TVD_SPACE_ENCODED": {
+    "areaTested": "meta",
+    "description": "Space ratio &amp; encoded subject",
+    "score": "1.500"
+  },
+  "TVD_SPACE_RATIO": {
+    "areaTested": "meta",
+    "description": "No description provided",
+    "score": "0.001"
+  },
+  "TVD_SPACE_RATIO_MINFP": {
+    "areaTested": "meta",
+    "description": "Space ratio",
+    "score": "1.500"
+  },
+  "TVD_SUBJ_ACC_NUM": {
+    "areaTested": "header",
+    "description": "Subject has spammy looking monetary reference",
+    "score": "0.100"
+  },
+  "TVD_SUBJ_APPR_LOAN": {
+    "areaTested": "header",
+    "description": "No description provided",
+    "score": "1.239"
+  },
+  "TVD_SUBJ_NUM_OBFU_MINFP": {
+    "areaTested": "meta",
+    "description": "No description provided",
+    "score": "2.881"
+  },
+  "TVD_SUBJ_WIPE_DEBT": {
+    "areaTested": "header",
+    "description": "Spam advertising a way to eliminate debt",
+    "score": "2.599"
+  },
+  "TVD_VISIT_PHARMA": {
+    "areaTested": "body",
+    "description": "Body mentions online pharmacy",
+    "score": "1.957"
+  },
+  "TW_GIBBERISH_MANY": {
+    "areaTested": "meta",
+    "description": "Lots of gibberish text to spoof pattern matching filters",
+    "score": "1.000"
+  },
+  "TXREP": {
+    "areaTested": "header",
+    "description": "Score normalizing based on sender's reputation",
+    "score": "1.000"
+  },
+  "T_ACH_CANCELLED_EXE": {
+    "areaTested": "meta",
+    "description": "\"ACH cancelled\" probable malware",
+    "score": "0.100"
+  },
+  "T_BTC_ORG": {
+    "areaTested": "meta",
+    "description": "Bitcoin wallet ID + unusual header",
+    "score": "0.100"
+  },
+  "T_CDISP_SZ_MANY": {
+    "areaTested": "mimeheader",
+    "description": "Suspicious MIME header",
+    "score": "0.100"
+  },
+  "T_DATE_IN_FUTURE_Q_PLUS": {
+    "areaTested": "header",
+    "description": "Date: is over 4 months after Received: date",
+    "score": "0.100"
+  },
+  "T_DOC_ATTACH_NO_EXT": {
+    "areaTested": "meta",
+    "description": "Document attachment with suspicious name",
+    "score": "0.100"
+  },
+  "T_DOS_OUTLOOK_TO_MX_IMAGE": {
+    "areaTested": "meta",
+    "description": "Direct to MX with Outlook headers and an image",
+    "score": "0.100"
+  },
+  "T_DOS_ZIP_HARDCORE": {
+    "areaTested": "mimeheader",
+    "description": "hardcore.zip file attached; quite certainly a virus",
+    "score": "0.100"
+  },
+  "T_EMRCP": {
+    "areaTested": "body",
+    "description": "\"Excess Maximum Return Capital Profit\" scam",
+    "score": "0.100"
+  },
+  "T_END_FUTURE_EMAILS": {
+    "areaTested": "meta",
+    "description": "Spammy unsubscribe",
+    "score": "0.100"
+  },
+  "T_FILL_THIS_FORM_FRAUD_PHISH": {
+    "areaTested": "meta",
+    "description": "Answer suspicious question(s)",
+    "score": "0.100"
+  },
+  "T_FILL_THIS_FORM_SHORT": {
+    "areaTested": "meta",
+    "description": "Fill in a short form with personal information",
+    "score": "0.100"
+  },
+  "T_FORGED_TBIRD_IMG_SIZE": {
+    "areaTested": "meta",
+    "description": "Likely forged Thunderbird image spam",
+    "score": "0.100"
+  },
+  "T_FREEMAIL_DOC_PDF": {
+    "areaTested": "meta",
+    "description": "MS document or PDF attachment, from freemail",
+    "score": "0.100"
+  },
+  "T_FREEMAIL_DOC_PDF_BCC": {
+    "areaTested": "meta",
+    "description": "MS document or PDF attachment, from freemail, all recipients hidden",
+    "score": "0.100"
+  },
+  "T_FREEMAIL_RVW_ATTCH": {
+    "areaTested": "meta",
+    "description": "Please review attached document, from freemail",
+    "score": "0.100"
+  },
+  "T_FROMNAME_EQUALS_TO": {
+    "areaTested": "meta",
+    "description": "From:name matches To:",
+    "score": "0.100"
+  },
+  "T_FROMNAME_SPOOFED_EMAIL": {
+    "areaTested": "meta",
+    "description": "From:name looks like a spoofed email",
+    "score": "0.100"
+  },
+  "T_FUZZY_OPTOUT": {
+    "areaTested": "body",
+    "description": "Obfuscated opt-out text",
+    "score": "0.100"
+  },
+  "T_GB_FREEM_FROM_NOT_REPLY": {
+    "areaTested": "meta",
+    "description": "From: and Reply-To: have different freemail domains",
+    "score": "0.100"
+  },
+  "T_GB_FROMNAME_SPOOFED_EMAIL_IP": {
+    "areaTested": "meta",
+    "description": "From:name looks like a spoofed email from a spoofed ip",
+    "score": "0.100"
+  },
+  "T_HDRS_LCASE": {
+    "areaTested": "meta",
+    "description": "Odd capitalization of message header",
+    "score": "0.100"
+  },
+  "T_HTML_ATTACH": {
+    "areaTested": "meta",
+    "description": "HTML attachment to bypass scanning?",
+    "score": "0.100"
+  },
+  "T_HTML_TAG_BALANCE_CENTER": {
+    "areaTested": "meta",
+    "description": "Malformatted HTML",
+    "score": "0.100"
+  },
+  "T_ISO_ATTACH": {
+    "areaTested": "meta",
+    "description": "ISO attachment - possible malware delivery",
+    "score": "0.100"
+  },
+  "T_KAM_HTML_FONT_INVALID": {
+    "areaTested": "body",
+    "description": "Test for Invalidly Named or Formatted Colors in HTML",
+    "score": "0.100"
+  },
+  "T_LARGE_PCT_AFTER_MANY": {
+    "areaTested": "meta",
+    "description": "Many large percentages after...",
+    "score": "0.100"
+  },
+  "T_LOTTO_AGENT_FM": {
+    "areaTested": "header",
+    "description": "Claims Agent",
+    "score": "0.100"
+  },
+  "T_LOTTO_AGENT_RPLY": {
+    "areaTested": "meta",
+    "description": "Claims Agent",
+    "score": "0.100"
+  },
+  "T_LOTTO_URI": {
+    "areaTested": "uri",
+    "description": "Claims Department URL",
+    "score": "0.100"
+  },
+  "T_MALW_ATTACH": {
+    "areaTested": "meta",
+    "description": "Attachment filename suspicious, probable malware exploit",
+    "score": "0.100"
+  },
+  "T_MANY_HDRS_LCASE": {
+    "areaTested": "meta",
+    "description": "Odd capitalization of multiple message headers",
+    "score": "0.100"
+  },
+  "T_MANY_PILL_PRICE": {
+    "areaTested": "meta",
+    "description": "Prices for many pills",
+    "score": "0.100"
+  },
+  "T_MIME_MALF": {
+    "areaTested": "meta",
+    "description": "Malformed MIME: headers in body",
+    "score": "0.100"
+  },
+  "T_MONEY_PERCENT": {
+    "areaTested": "meta",
+    "description": "X% of a lot of money for you",
+    "score": "0.100"
+  },
+  "T_OBFU_ATTACH_MISSP": {
+    "areaTested": "meta",
+    "description": "Obfuscated attachment type and misspaced From",
+    "score": "0.100"
+  },
+  "T_OBFU_DOC_ATTACH": {
+    "areaTested": "mimeheader",
+    "description": "MS Document attachment with generic MIME type",
+    "score": "0.100"
+  },
+  "T_OBFU_GIF_ATTACH": {
+    "areaTested": "mimeheader",
+    "description": "GIF attachment with generic MIME type",
+    "score": "0.100"
+  },
+  "T_OBFU_HTML_ATTACH": {
+    "areaTested": "mimeheader",
+    "description": "HTML attachment with non-text MIME type",
+    "score": "0.100"
+  },
+  "T_OBFU_HTML_ATT_MALW": {
+    "areaTested": "meta",
+    "description": "HTML attachment with incorrect MIME type - possible malware",
+    "score": "0.100"
+  },
+  "T_OBFU_JPG_ATTACH": {
+    "areaTested": "mimeheader",
+    "description": "JPG attachment with generic MIME type",
+    "score": "0.100"
+  },
+  "T_OBFU_PDF_ATTACH": {
+    "areaTested": "mimeheader",
+    "description": "PDF attachment with generic MIME type",
+    "score": "0.100"
+  },
+  "T_REMOTE_IMAGE": {
+    "areaTested": "meta",
+    "description": "Message contains an external image",
+    "score": "0.100"
+  },
+  "T_SENT_TO_EMAIL_ADDR": {
+    "areaTested": "meta",
+    "description": "Email was sent to email address",
+    "score": "0.100"
+  },
+  "T_SHARE_50_50": {
+    "areaTested": "meta",
+    "description": "Share the money 50/50",
+    "score": "0.100"
+  },
+  "T_SPF_HELO_PERMERROR": {
+    "areaTested": "header",
+    "description": "SPF: test of HELO record failed (permerror)",
+    "score": "0.100"
+  },
+  "T_SPF_HELO_TEMPERROR": {
+    "areaTested": "header",
+    "description": "SPF: test of HELO record failed (temperror)",
+    "score": "0.100"
+  },
+  "T_SPF_PERMERROR": {
+    "areaTested": "header",
+    "description": "SPF: test of record failed (permerror)",
+    "score": "0.100"
+  },
+  "T_SPF_TEMPERROR": {
+    "areaTested": "header",
+    "description": "SPF: test of record failed (temperror)",
+    "score": "0.100"
+  },
+  "T_SUBJ_BRKN_WORDNUMS": {
+    "areaTested": "meta",
+    "description": "Subject contains odd word breaks and numbers",
+    "score": "0.100"
+  },
+  "T_SUSPNTLD_EXPIRATION_EXTORT": {
+    "areaTested": "meta",
+    "description": "Susp NTLD with an expiration notice and lotsa money",
+    "score": "0.100"
+  },
+  "T_WON_MONEY_ATTACH": {
+    "areaTested": "meta",
+    "description": "You won lots of money! See attachment.",
+    "score": "0.100"
+  },
+  "T_WON_NBDY_ATTACH": {
+    "areaTested": "meta",
+    "description": "You won lots of money! See attachment.",
+    "score": "0.100"
+  },
+  "T_ZW_OBFU_FREEM": {
+    "areaTested": "meta",
+    "description": "Obfuscated text + freemail",
+    "score": "0.100"
+  },
+  "T_ZW_OBFU_FROMTOSUBJ": {
+    "areaTested": "meta",
+    "description": "Obfuscated text + from in to and subject",
+    "score": "0.100"
+  },
+  "UC_GIBBERISH_OBFU": {
+    "areaTested": "meta",
+    "description": "Multiple instances of \"word VERYLONGGIBBERISH word\"",
+    "score": "1.000"
+  },
+  "UNCLAIMED_MONEY": {
+    "areaTested": "body",
+    "description": "People just leave money laying around",
+    "score": "2.699"
+  },
+  "UNCLOSED_BRACKET": {
+    "areaTested": "header",
+    "description": "Headers contain an unclosed bracket",
+    "score": "2.699"
+  },
+  "UNICODE_OBFU_ASC": {
+    "areaTested": "meta",
+    "description": "Obfuscating text with unicode",
+    "score": "2.499"
+  },
+  "UNICODE_OBFU_ZW": {
+    "areaTested": "meta",
+    "description": "Obfuscating text with hidden characters",
+    "score": "0.284"
+  },
+  "UNPARSEABLE_RELAY": {
+    "areaTested": "meta",
+    "description": "Informational: message has unparseable relay lines",
+    "score": "0.001"
+  },
+  "UNRESOLVED_TEMPLATE": {
+    "areaTested": "header",
+    "description": "Headers contain an unresolved template",
+    "score": "3.035"
+  },
+  "UNWANTED_LANGUAGE_BODY": {
+    "areaTested": "body",
+    "description": "Message written in an undesired language",
+    "score": "2.800"
+  },
+  "UPPERCASE_50_75": {
+    "areaTested": "meta",
+    "description": "message body is 50-75% uppercase",
+    "score": "0.001"
+  },
+  "UPPERCASE_75_100": {
+    "areaTested": "meta",
+    "description": "message body is 75-100% uppercase",
+    "score": "1.480"
+  },
+  "URG_BIZ": {
+    "areaTested": "body",
+    "description": "Contains urgent matter",
+    "score": "1.750"
+  },
+  "URIBL_ABUSE_SURBL": {
+    "areaTested": "body",
+    "description": "Contains an URL listed in the ABUSE SURBL blocklist",
+    "score": "0.000"
+  },
+  "URIBL_CR_SURBL": {
+    "areaTested": "body",
+    "description": "Contains an URL listed in the CR SURBL blocklist",
+    "score": "0.000"
+  },
+  "URIBL_CSS": {
+    "areaTested": "body",
+    "description": "Contains an URL's NS IP listed in the Spamhaus CSS blocklist",
+    "score": "0.000"
+  },
+  "URIBL_CSS_A": {
+    "areaTested": "body",
+    "description": "Contains URL's A record listed in the Spamhaus CSS blocklist",
+    "score": "0.000"
+  },
+  "URIBL_DBL_ABUSE_BOTCC": {
+    "areaTested": "body",
+    "description": "Contains an abused botnet C&amp;C URL listed in the Spamhaus DBL blocklist",
+    "score": "0.000"
+  },
+  "URIBL_DBL_ABUSE_MALW": {
+    "areaTested": "body",
+    "description": "Contains an abused malware URL listed in the Spamhaus DBL blocklist",
+    "score": "0.000"
+  },
+  "URIBL_DBL_ABUSE_PHISH": {
+    "areaTested": "body",
+    "description": "Contains an abused phishing URL listed in the Spamhaus DBL blocklist",
+    "score": "0.000"
+  },
+  "URIBL_DBL_ABUSE_REDIR": {
+    "areaTested": "body",
+    "description": "Contains an abused redirector URL listed in the Spamhaus DBL blocklist",
+    "score": "0.000"
+  },
+  "URIBL_DBL_ABUSE_SPAM": {
+    "areaTested": "body",
+    "description": "Contains an abused spamvertized URL listed in the Spamhaus DBL blocklist",
+    "score": "0.000"
+  },
+  "URIBL_DBL_BOTNETCC": {
+    "areaTested": "body",
+    "description": "Contains a botned C&amp;C URL listed in the Spamhaus DBL blocklist",
+    "score": "0.000"
+  },
+  "URIBL_DBL_ERROR": {
+    "areaTested": "body",
+    "description": "Error: queried the Spamhaus DBL blocklist for an IP",
+    "score": "0.000"
+  },
+  "URIBL_DBL_MALWARE": {
+    "areaTested": "body",
+    "description": "Contains a malware URL listed in the Spamhaus DBL blocklist",
+    "score": "0.000"
+  },
+  "URIBL_DBL_PHISH": {
+    "areaTested": "body",
+    "description": "Contains a Phishing URL listed in the Spamhaus DBL blocklist",
+    "score": "0.000"
+  },
+  "URIBL_DBL_SPAM": {
+    "areaTested": "body",
+    "description": "Contains a spam URL listed in the Spamhaus DBL blocklist",
+    "score": "0.000"
+  },
+  "URIBL_MW_SURBL": {
+    "areaTested": "body",
+    "description": "Contains a URL listed in the MW SURBL blocklist",
+    "score": "0.000"
+  },
+  "URIBL_PH_SURBL": {
+    "areaTested": "body",
+    "description": "Contains an URL listed in the PH SURBL blocklist",
+    "score": "0.000"
+  },
+  "URIBL_RHS_DOB": {
+    "areaTested": "body",
+    "description": "Contains an URI of a new domain (Day Old Bread)",
+    "score": "0.000"
+  },
+  "URIBL_SBL": {
+    "areaTested": "body",
+    "description": "Contains an URL's NS IP listed in the Spamhaus SBL blocklist",
+    "score": "0.000"
+  },
+  "URIBL_SBL_A": {
+    "areaTested": "body",
+    "description": "Contains URL's A record listed in the Spamhaus SBL blocklist",
+    "score": "0.000"
+  },
+  "URIBL_WS_SURBL": {
+    "areaTested": "body",
+    "description": "Contains an URL listed in the WS SURBL blocklist",
+    "score": "0.000"
+  },
+  "URI_BUFFLY": {
+    "areaTested": "meta",
+    "description": "buff.ly redirector URI",
+    "score": "1.802"
+  },
+  "URI_DATA": {
+    "areaTested": "meta",
+    "description": "\"data:\" URI - possible malware or phish",
+    "score": "1.000"
+  },
+  "URI_DQ_UNSUB": {
+    "areaTested": "meta",
+    "description": "IP-address unsubscribe URI",
+    "score": "1.000"
+  },
+  "URI_GOOGLE_PROXY": {
+    "areaTested": "meta",
+    "description": "Accessing a blacklisted URI or obscuring source of phish via Google proxy?",
+    "score": "1.699"
+  },
+  "URI_HEX": {
+    "areaTested": "uri",
+    "description": "URI hostname has long hexadecimal sequence",
+    "score": "0.100"
+  },
+  "URI_HEX_IP": {
+    "areaTested": "meta",
+    "description": "URI with hex-encoded IP-address host",
+    "score": "1.990"
+  },
+  "URI_HOST_IN_BLACKLIST": {
+    "areaTested": "body",
+    "description": "Host or Domain is listed in the user's URI black-list",
+    "score": "100.000"
+  },
+  "URI_HOST_IN_WHITELIST": {
+    "areaTested": "body",
+    "description": "Host or Domain is listed in the user's URI white-list",
+    "score": "-100.000"
+  },
+  "URI_NOVOWEL": {
+    "areaTested": "uri",
+    "description": "URI hostname has long non-vowel sequence",
+    "score": "0.500"
+  },
+  "URI_NO_WWW_BIZ_CGI": {
+    "areaTested": "uri",
+    "description": "CGI in .biz TLD other than third-level \"www\"",
+    "score": "1.000"
+  },
+  "URI_NO_WWW_INFO_CGI": {
+    "areaTested": "uri",
+    "description": "CGI in .info TLD other than third-level \"www\"",
+    "score": "1.000"
+  },
+  "URI_ONLY_MSGID_MALF": {
+    "areaTested": "meta",
+    "description": "URI only + malformed message ID",
+    "score": "1.989"
+  },
+  "URI_OPTOUT_3LD": {
+    "areaTested": "uri",
+    "description": "Opt-out URI, suspicious hostname",
+    "score": "1.000"
+  },
+  "URI_OPTOUT_USME": {
+    "areaTested": "uri",
+    "description": "Opt-out URI, unusual TLD",
+    "score": "1.000"
+  },
+  "URI_PHISH": {
+    "areaTested": "meta",
+    "description": "Phishing using web form",
+    "score": "3.999"
+  },
+  "URI_PHP_REDIR": {
+    "areaTested": "meta",
+    "description": "PHP redirect to different URL (link obfuscation)",
+    "score": "3.499"
+  },
+  "URI_TRUNCATED": {
+    "areaTested": "body",
+    "description": "Message contained a URI which was truncated",
+    "score": "0.001"
+  },
+  "URI_TRY_3LD": {
+    "areaTested": "uri",
+    "description": "\"Try it\" URI, suspicious hostname",
+    "score": "0.103"
+  },
+  "URI_TRY_USME": {
+    "areaTested": "meta",
+    "description": "\"Try it\" URI, unusual TLD",
+    "score": "1.000"
+  },
+  "URI_WPADMIN": {
+    "areaTested": "meta",
+    "description": "WordPress login/admin URI, possible phishing",
+    "score": "2.499"
+  },
+  "URI_WP_DIRINDEX": {
+    "areaTested": "meta",
+    "description": "URI for compromised WordPress site, possible malware",
+    "score": "3.499"
+  },
+  "URI_WP_HACKED": {
+    "areaTested": "meta",
+    "description": "URI for compromised WordPress site, possible malware",
+    "score": "3.499"
+  },
+  "URI_WP_HACKED_2": {
+    "areaTested": "meta",
+    "description": "URI for compromised WordPress site, possible malware",
+    "score": "2.499"
+  },
+  "USB_DRIVES": {
+    "areaTested": "meta",
+    "description": "Trying to sell custom USB flash drives",
+    "score": "1.000"
+  },
+  "USER_IN_ALL_SPAM_TO": {
+    "areaTested": "header",
+    "description": "User is listed in 'all_spam_to'",
+    "score": "-100.000"
+  },
+  "USER_IN_BLACKLIST": {
+    "areaTested": "header",
+    "description": "From: address is in the user's black-list",
+    "score": "100.000"
+  },
+  "USER_IN_BLACKLIST_TO": {
+    "areaTested": "header",
+    "description": "User is listed in 'blacklist_to'",
+    "score": "10.000"
+  },
+  "USER_IN_DEF_DKIM_WL": {
+    "areaTested": "header",
+    "description": "From: address is in the default DKIM white-list",
+    "score": "-7.500"
+  },
+  "USER_IN_DEF_SPF_WL": {
+    "areaTested": "header",
+    "description": "From: address is in the default SPF white-list",
+    "score": "-7.500"
+  },
+  "USER_IN_DEF_WHITELIST": {
+    "areaTested": "header",
+    "description": "From: address is in the default white-list",
+    "score": "-15.000"
+  },
+  "USER_IN_DKIM_WHITELIST": {
+    "areaTested": "header",
+    "description": "From: address is in the user's DKIM whitelist",
+    "score": "-100.000"
+  },
+  "USER_IN_MORE_SPAM_TO": {
+    "areaTested": "header",
+    "description": "User is listed in 'more_spam_to'",
+    "score": "-20.000"
+  },
+  "USER_IN_SPF_WHITELIST": {
+    "areaTested": "header",
+    "description": "From: address is in the user's SPF whitelist",
+    "score": "-100.000"
+  },
+  "USER_IN_WHITELIST": {
+    "areaTested": "header",
+    "description": "From: address is in the user's white-list",
+    "score": "-100.000"
+  },
+  "USER_IN_WHITELIST_TO": {
+    "areaTested": "header",
+    "description": "User is listed in 'whitelist_to'",
+    "score": "-6.000"
+  },
+  "VBOUNCE_MESSAGE": {
+    "areaTested": "meta",
+    "description": "Virus-scanner bounce message",
+    "score": "0.100"
+  },
+  "VPS_NO_NTLD": {
+    "areaTested": "meta",
+    "description": "vps[0-9] domain at a suspiscious TLD",
+    "score": "1.000"
+  },
+  "WEIRD_PORT": {
+    "areaTested": "uri",
+    "description": "Uses non-standard port number for HTTP",
+    "score": "0.001"
+  },
+  "WEIRD_QUOTING": {
+    "areaTested": "body",
+    "description": "Weird repeated double-quotation marks",
+    "score": "0.001"
+  },
+  "XM_PHPMAILER_FORGED": {
+    "areaTested": "meta",
+    "description": "Apparently forged header",
+    "score": "1.000"
+  },
+  "XPRIO": {
+    "areaTested": "meta",
+    "description": "Has X-Priority header",
+    "score": "2.250"
+  },
+  "XPRIO_SHORT_SUBJ": {
+    "areaTested": "meta",
+    "description": "Has X-Priority header + short subject",
+    "score": "2.044"
+  },
+  "X_IP": {
+    "areaTested": "header",
+    "description": "Message has X-IP header",
+    "score": "0.001"
+  },
+  "X_MAILER_CME_6543_MSN": {
+    "areaTested": "header",
+    "description": "No description provided",
+    "score": "2.886"
+  },
+  "YOU_INHERIT": {
+    "areaTested": "meta",
+    "description": "Discussing your inheritance",
+    "score": "2.164"
+  },
+  "ZW_OBFU_BITCOIN": {
+    "areaTested": "meta",
+    "description": "Obfuscated text + bitcoin ID - possible extortion",
+    "score": "0.001"
+  },
+  "__DC_GIF_MULTI_LARGO": {
+    "areaTested": "meta",
+    "description": "Message has 2+ inline gif covering lots of area",
+    "score": "1.000"
+  },
+  "__DC_IMG_HTML_RATIO": {
+    "areaTested": "rawbody",
+    "description": "Low rawbody to pixel area ratio",
+    "score": "1.000"
+  },
+  "__DC_IMG_TEXT_RATIO": {
+    "areaTested": "body",
+    "description": "Low body to pixel area ratio",
+    "score": "1.000"
+  },
+  "__DC_PNG_MULTI_LARGO": {
+    "areaTested": "meta",
+    "description": "Message has 2+ png images covering lots of area",
+    "score": "1.000"
+  },
+  "__DKIM_DEPENDABLE": {
+    "areaTested": "full",
+    "description": "A validation failure not attributable to truncation",
+    "score": "1.000"
+  },
+  "__FORGED_TBIRD_IMG": {
+    "areaTested": "meta",
+    "description": "Possibly forged Thunderbird image spam",
+    "score": "1.000"
+  },
+  "__FROM_41_FREEMAIL": {
+    "areaTested": "meta",
+    "description": "Sent from Africa + freemail provider",
+    "score": "1.000"
+  },
+  "__HAS_HREF": {
+    "areaTested": "rawbody",
+    "description": "Has an anchor tag with a href attribute in non-quoted line",
+    "score": "1.000"
+  },
+  "__HAS_IMG_SRC": {
+    "areaTested": "rawbody",
+    "description": "Has an img tag on a non-quoted line",
+    "score": "1.000"
+  },
+  "__HAS_IMG_SRC_ONECASE": {
+    "areaTested": "rawbody",
+    "description": "Has an img tag on a non-quoted line with consistent case",
+    "score": "1.000"
+  },
+  "__KAM_BODY_LENGTH_LT_1024": {
+    "areaTested": "body",
+    "description": "The length of the body of the email is less than 1024 bytes.",
+    "score": "1.000"
+  },
+  "__KAM_BODY_LENGTH_LT_128": {
+    "areaTested": "body",
+    "description": "The length of the body of the email is less than 128 bytes.",
+    "score": "1.000"
+  },
+  "__KAM_BODY_LENGTH_LT_256": {
+    "areaTested": "body",
+    "description": "The length of the body of the email is less than 256 bytes.",
+    "score": "1.000"
+  },
+  "__KAM_BODY_LENGTH_LT_512": {
+    "areaTested": "body",
+    "description": "The length of the body of the email is less than 512 bytes.",
+    "score": "1.000"
+  },
+  "__MIME_BASE64": {
+    "areaTested": "rawbody",
+    "description": "Includes a base64 attachment",
+    "score": "1.000"
+  },
+  "__MIME_QP": {
+    "areaTested": "rawbody",
+    "description": "Includes a quoted-printable attachment",
+    "score": "1.000"
+  },
+  "__ML_TURNS_SP_TO_TAB": {
+    "areaTested": "header",
+    "description": "A mailing list changing a space to a TAB",
+    "score": "1.000"
+  },
+  "__MY_SERVERS_FOUND": {
+    "areaTested": "body",
+    "description": "No description provided",
+    "score": "-0.001"
+  },
+  "__NSL_ORIG_FROM_41": {
+    "areaTested": "header",
+    "description": "Originates from 41.0.0.0/8",
+    "score": "1.000"
+  },
+  "__NSL_RCVD_FROM_41": {
+    "areaTested": "header",
+    "description": "Received from 41.0.0.0/8",
+    "score": "1.000"
+  },
+  "__RCVD_IN_MSPIKE_Z": {
+    "areaTested": "header",
+    "description": "Spam wave participant",
+    "score": "1.000"
+  },
+  "__RCVD_IN_SORBS": {
+    "areaTested": "header",
+    "description": "SORBS: sender is listed in SORBS",
+    "score": "1.000"
+  },
+  "__RCVD_IN_ZEN": {
+    "areaTested": "header",
+    "description": "Received via a relay in Spamhaus Zen",
+    "score": "1.000"
+  },
+  "__RDNS_DYNAMIC_ADELPHIA": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (Adelphia)",
+    "score": "1.000"
+  },
+  "__RDNS_DYNAMIC_ATTBI": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (ATTBI.com)",
+    "score": "1.000"
+  },
+  "__RDNS_DYNAMIC_CHELLO_NL": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (Chello.nl)",
+    "score": "1.000"
+  },
+  "__RDNS_DYNAMIC_CHELLO_NO": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (Chello.no)",
+    "score": "1.000"
+  },
+  "__RDNS_DYNAMIC_COMCAST": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (Comcast)",
+    "score": "1.000"
+  },
+  "__RDNS_DYNAMIC_DHCP": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (DHCP)",
+    "score": "1.000"
+  },
+  "__RDNS_DYNAMIC_DIALIN": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (T-Dialin)",
+    "score": "1.000"
+  },
+  "__RDNS_DYNAMIC_HCC": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (HCC)",
+    "score": "1.000"
+  },
+  "__RDNS_DYNAMIC_HEXIP": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (Hex IP)",
+    "score": "1.000"
+  },
+  "__RDNS_DYNAMIC_IPADDR": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (IP addr 1)",
+    "score": "1.000"
+  },
+  "__RDNS_DYNAMIC_NTL": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (NTL)",
+    "score": "1.000"
+  },
+  "__RDNS_DYNAMIC_OOL": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (OptOnline)",
+    "score": "1.000"
+  },
+  "__RDNS_DYNAMIC_ROGERS": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (Rogers)",
+    "score": "1.000"
+  },
+  "__RDNS_DYNAMIC_RR2": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (RR 2)",
+    "score": "1.000"
+  },
+  "__RDNS_DYNAMIC_SPLIT_IP": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (Split IP)",
+    "score": "1.000"
+  },
+  "__RDNS_DYNAMIC_TELIA": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (Telia)",
+    "score": "1.000"
+  },
+  "__RDNS_DYNAMIC_VELOX": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (Veloxzone)",
+    "score": "1.000"
+  },
+  "__RDNS_DYNAMIC_VTR": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (VTR)",
+    "score": "1.000"
+  },
+  "__RDNS_DYNAMIC_YAHOOBB": {
+    "areaTested": "header",
+    "description": "Relay HELO'd using suspicious hostname (YahooBB)",
+    "score": "1.000"
+  },
+  "__TO_EQ_FROM": {
+    "areaTested": "meta",
+    "description": "To: same as From:",
+    "score": "1.000"
+  },
+  "__TO_EQ_FROM_DOM": {
+    "areaTested": "meta",
+    "description": "To: domain same as From: domain",
+    "score": "1.000"
+  },
+  "__TO_EQ_FROM_USR": {
+    "areaTested": "meta",
+    "description": "To: username same as From: username",
+    "score": "1.000"
+  },
+  "__TO_EQ_FROM_USR_NN": {
+    "areaTested": "meta",
+    "description": "To: username same as From: username sans trailing nums",
+    "score": "1.000"
+  },
+  "__VIA_ML": {
+    "areaTested": "meta",
+    "description": "Mail from a mailing list",
+    "score": "1.000"
+  },
+  "__VIA_RESIGNER": {
+    "areaTested": "meta",
+    "description": "Mail through a popular signing remailer",
+    "score": "1.000"
+  }
+}
