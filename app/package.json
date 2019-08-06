@@ -1,0 +1,33 @@
+{
+  "name": "scms-api",
+  "version": "1.0.0",
+  "description": "Spam Checker Microservice API project.",
+  "main": "index.js",
+  "scripts": {
+    "local": "NODE_ENV=local ./node_modules/.bin/supervisor index",
+    "dev": "NODE_ENV=dev ./node_modules/.bin/supervisor index",
+    "prod": "NODE_ENV=prod ./node_modules/.bin/supervisor index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teodyseguin/spam-checker-ms-api"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teodyseguin/spam-checker-ms-api/issues"
+  },
+  "homepage": "https://github.com/teodyseguin/spam-checker-ms-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "node-spamd": "0.0.4",
+    "path": "^0.12.7",
+    "spamc": "0.0.5"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
